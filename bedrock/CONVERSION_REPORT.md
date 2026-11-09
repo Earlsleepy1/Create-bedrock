@@ -1,0 +1,4107 @@
+# ModBridge: Java mod -> Bedrock addon
+
+- **Source:** `research/create-java.jar`
+- **Output:** `/home/hatch/workspace/your_files/create-bedrock.mcaddon`
+
+## Converted (1996)
+
+### blocks (643)
+
+- create:acacia_window
+- create:acacia_window_pane
+- create:adjustable_chain_gearshift
+- create:analog_lever
+- create:andesite_alloy_block
+- create:andesite_bars
+- create:andesite_belt_funnel
+- create:andesite_casing
+- create:andesite_door
+- create:andesite_encased_cogwheel
+- create:andesite_encased_large_cogwheel
+- create:andesite_encased_shaft
+- create:andesite_funnel
+- create:andesite_ladder
+- create:andesite_pillar
+- create:andesite_scaffolding
+- create:andesite_table_cloth
+- create:andesite_tunnel
+- create:asurine
+- create:asurine_pillar
+- create:bamboo_window
+- create:bamboo_window_pane
+- create:basin
+- create:belt
+- create:birch_window
+- create:birch_window_pane
+- create:black_nixie_tube
+- create:black_postbox
+- create:black_sail
+- create:black_seat
+- create:black_table_cloth
+- create:black_toolbox
+- create:black_valve_handle
+- create:blaze_burner
+- create:blue_nixie_tube
+- create:blue_postbox
+- create:blue_sail
+- create:blue_seat
+- create:blue_table_cloth
+- create:blue_toolbox
+- create:blue_valve_handle
+- create:bound_cardboard_block
+- create:brass_bars
+- create:brass_belt_funnel
+- create:brass_block
+- create:brass_casing
+- create:brass_door
+- create:brass_encased_cogwheel
+- create:brass_encased_large_cogwheel
+- create:brass_encased_shaft
+- create:brass_funnel
+- create:brass_ladder
+- create:brass_scaffolding
+- create:brass_table_cloth
+- create:brass_tunnel
+- create:brown_nixie_tube
+- create:brown_postbox
+- create:brown_sail
+- create:brown_seat
+- create:brown_table_cloth
+- create:brown_toolbox
+- create:brown_valve_handle
+- create:calcite_pillar
+- create:cardboard_block
+- create:cart_assembler
+- create:chain_conveyor
+- create:cherry_window
+- create:cherry_window_pane
+- create:chocolate
+- create:chute
+- create:clipboard
+- create:clockwork_bearing
+- create:clutch
+- create:cogwheel
+- create:content_observer
+- create:contraption_controls
+- create:controller_rail
+- create:controls
+- create:copper_backtank
+- create:copper_bars
+- create:copper_casing
+- create:copper_door
+- create:copper_ladder
+- create:copper_scaffolding
+- create:copper_shingle_slab
+- create:copper_shingle_stairs
+- create:copper_shingles
+- create:copper_table_cloth
+- create:copper_tile_slab
+- create:copper_tile_stairs
+- create:copper_tiles
+- create:copper_valve_handle
+- create:copycat_bars
+- create:copycat_base
+- create:copycat_panel
+- create:copycat_step
+- create:creative_crate
+- create:creative_fluid_tank
+- create:creative_motor
+- create:crimsite
+- create:crimsite_pillar
+- create:crimson_window
+- create:crimson_window_pane
+- create:crushing_wheel
+- create:crushing_wheel_controller
+- create:cuckoo_clock
+- create:cut_andesite
+- create:cut_andesite_brick_slab
+- create:cut_andesite_brick_stairs
+- create:cut_andesite_brick_wall
+- create:cut_andesite_bricks
+- create:cut_andesite_slab
+- create:cut_andesite_stairs
+- create:cut_andesite_wall
+- create:cut_asurine
+- create:cut_asurine_brick_slab
+- create:cut_asurine_brick_stairs
+- create:cut_asurine_brick_wall
+- create:cut_asurine_bricks
+- create:cut_asurine_slab
+- create:cut_asurine_stairs
+- create:cut_asurine_wall
+- create:cut_calcite
+- create:cut_calcite_brick_slab
+- create:cut_calcite_brick_stairs
+- create:cut_calcite_brick_wall
+- create:cut_calcite_bricks
+- create:cut_calcite_slab
+- create:cut_calcite_stairs
+- create:cut_calcite_wall
+- create:cut_crimsite
+- create:cut_crimsite_brick_slab
+- create:cut_crimsite_brick_stairs
+- create:cut_crimsite_brick_wall
+- create:cut_crimsite_bricks
+- create:cut_crimsite_slab
+- create:cut_crimsite_stairs
+- create:cut_crimsite_wall
+- create:cut_deepslate
+- create:cut_deepslate_brick_slab
+- create:cut_deepslate_brick_stairs
+- create:cut_deepslate_brick_wall
+- create:cut_deepslate_bricks
+- create:cut_deepslate_slab
+- create:cut_deepslate_stairs
+- create:cut_deepslate_wall
+- create:cut_diorite
+- create:cut_diorite_brick_slab
+- create:cut_diorite_brick_stairs
+- create:cut_diorite_brick_wall
+- create:cut_diorite_bricks
+- create:cut_diorite_slab
+- create:cut_diorite_stairs
+- create:cut_diorite_wall
+- create:cut_dripstone
+- create:cut_dripstone_brick_slab
+- create:cut_dripstone_brick_stairs
+- create:cut_dripstone_brick_wall
+- create:cut_dripstone_bricks
+- create:cut_dripstone_slab
+- create:cut_dripstone_stairs
+- create:cut_dripstone_wall
+- create:cut_granite
+- create:cut_granite_brick_slab
+- create:cut_granite_brick_stairs
+- create:cut_granite_brick_wall
+- create:cut_granite_bricks
+- create:cut_granite_slab
+- create:cut_granite_stairs
+- create:cut_granite_wall
+- create:cut_limestone
+- create:cut_limestone_brick_slab
+- create:cut_limestone_brick_stairs
+- create:cut_limestone_brick_wall
+- create:cut_limestone_bricks
+- create:cut_limestone_slab
+- create:cut_limestone_stairs
+- create:cut_limestone_wall
+- create:cut_ochrum
+- create:cut_ochrum_brick_slab
+- create:cut_ochrum_brick_stairs
+- create:cut_ochrum_brick_wall
+- create:cut_ochrum_bricks
+- create:cut_ochrum_slab
+- create:cut_ochrum_stairs
+- create:cut_ochrum_wall
+- create:cut_scorchia
+- create:cut_scorchia_brick_slab
+- create:cut_scorchia_brick_stairs
+- create:cut_scorchia_brick_wall
+- create:cut_scorchia_bricks
+- create:cut_scorchia_slab
+- create:cut_scorchia_stairs
+- create:cut_scorchia_wall
+- create:cut_scoria
+- create:cut_scoria_brick_slab
+- create:cut_scoria_brick_stairs
+- create:cut_scoria_brick_wall
+- create:cut_scoria_bricks
+- create:cut_scoria_slab
+- create:cut_scoria_stairs
+- create:cut_scoria_wall
+- create:cut_tuff
+- create:cut_tuff_brick_slab
+- create:cut_tuff_brick_stairs
+- create:cut_tuff_brick_wall
+- create:cut_tuff_bricks
+- create:cut_tuff_slab
+- create:cut_tuff_stairs
+- create:cut_tuff_wall
+- create:cut_veridium
+- create:cut_veridium_brick_slab
+- create:cut_veridium_brick_stairs
+- create:cut_veridium_brick_wall
+- create:cut_veridium_bricks
+- create:cut_veridium_slab
+- create:cut_veridium_stairs
+- create:cut_veridium_wall
+- create:cyan_nixie_tube
+- create:cyan_postbox
+- create:cyan_sail
+- create:cyan_seat
+- create:cyan_table_cloth
+- create:cyan_toolbox
+- create:cyan_valve_handle
+- create:dark_oak_window
+- create:dark_oak_window_pane
+- create:deepslate_pillar
+- create:deepslate_zinc_ore
+- create:deployer
+- create:depot
+- create:desk_bell
+- create:diorite_pillar
+- create:display_board
+- create:display_link
+- create:dripstone_pillar
+- create:elevator_contact
+- create:elevator_pulley
+- create:encased_chain_drive
+- create:encased_fan
+- create:encased_fluid_pipe
+- create:experience_block
+- create:exposed_copper_shingle_slab
+- create:exposed_copper_shingle_stairs
+- create:exposed_copper_shingles
+- create:exposed_copper_tile_slab
+- create:exposed_copper_tile_stairs
+- create:exposed_copper_tiles
+- create:factory_gauge
+- create:fake_track
+- create:fluid_pipe
+- create:fluid_tank
+- create:fluid_valve
+- create:flywheel
+- create:framed_glass
+- create:framed_glass_door
+- create:framed_glass_pane
+- create:framed_glass_trapdoor
+- create:gantry_carriage
+- create:gantry_shaft
+- create:gearbox
+- create:gearshift
+- create:glass_fluid_pipe
+- create:granite_pillar
+- create:gray_nixie_tube
+- create:gray_postbox
+- create:gray_sail
+- create:gray_seat
+- create:gray_table_cloth
+- create:gray_toolbox
+- create:gray_valve_handle
+- create:green_nixie_tube
+- create:green_postbox
+- create:green_sail
+- create:green_seat
+- create:green_table_cloth
+- create:green_toolbox
+- create:green_valve_handle
+- create:hand_crank
+- create:haunted_bell
+- create:honey
+- create:horizontal_framed_glass
+- create:horizontal_framed_glass_pane
+- create:hose_pulley
+- create:industrial_iron_block
+- create:industrial_iron_window
+- create:industrial_iron_window_pane
+- create:item_drain
+- create:item_hatch
+- create:item_vault
+- create:jungle_window
+- create:jungle_window_pane
+- create:large_bogey
+- create:large_cogwheel
+- create:large_water_wheel
+- create:layered_andesite
+- create:layered_asurine
+- create:layered_calcite
+- create:layered_crimsite
+- create:layered_deepslate
+- create:layered_diorite
+- create:layered_dripstone
+- create:layered_granite
+- create:layered_limestone
+- create:layered_ochrum
+- create:layered_scorchia
+- create:layered_scoria
+- create:layered_tuff
+- create:layered_veridium
+- create:lectern_controller
+- create:light_blue_nixie_tube
+- create:light_blue_postbox
+- create:light_blue_sail
+- create:light_blue_seat
+- create:light_blue_table_cloth
+- create:light_blue_toolbox
+- create:light_blue_valve_handle
+- create:light_gray_nixie_tube
+- create:light_gray_postbox
+- create:light_gray_sail
+- create:light_gray_seat
+- create:light_gray_table_cloth
+- create:light_gray_toolbox
+- create:light_gray_valve_handle
+- create:lime_nixie_tube
+- create:lime_postbox
+- create:lime_sail
+- create:lime_seat
+- create:lime_table_cloth
+- create:lime_toolbox
+- create:lime_valve_handle
+- create:limestone
+- create:limestone_pillar
+- create:linear_chassis
+- create:lit_blaze_burner
+- create:magenta_nixie_tube
+- create:magenta_postbox
+- create:magenta_sail
+- create:magenta_seat
+- create:magenta_table_cloth
+- create:magenta_toolbox
+- create:magenta_valve_handle
+- create:mangrove_window
+- create:mangrove_window_pane
+- create:mechanical_arm
+- create:mechanical_bearing
+- create:mechanical_crafter
+- create:mechanical_drill
+- create:mechanical_harvester
+- create:mechanical_mixer
+- create:mechanical_piston
+- create:mechanical_piston_head
+- create:mechanical_plough
+- create:mechanical_press
+- create:mechanical_pump
+- create:mechanical_roller
+- create:mechanical_saw
+- create:metal_bracket
+- create:metal_girder
+- create:metal_girder_encased_shaft
+- create:millstone
+- create:minecart_anchor
+- create:mysterious_cuckoo_clock
+- create:netherite_backtank
+- create:nixie_tube
+- create:nozzle
+- create:oak_window
+- create:oak_window_pane
+- create:ochrum
+- create:ochrum_pillar
+- create:orange_postbox
+- create:orange_sail
+- create:orange_seat
+- create:orange_table_cloth
+- create:orange_toolbox
+- create:orange_valve_handle
+- create:ornate_iron_window
+- create:ornate_iron_window_pane
+- create:oxidized_copper_shingle_slab
+- create:oxidized_copper_shingle_stairs
+- create:oxidized_copper_shingles
+- create:oxidized_copper_tile_slab
+- create:oxidized_copper_tile_stairs
+- create:oxidized_copper_tiles
+- create:package_frogport
+- create:packager
+- create:peculiar_bell
+- create:pink_nixie_tube
+- create:pink_postbox
+- create:pink_sail
+- create:pink_seat
+- create:pink_table_cloth
+- create:pink_toolbox
+- create:pink_valve_handle
+- create:piston_extension_pole
+- create:placard
+- create:polished_cut_andesite
+- create:polished_cut_andesite_slab
+- create:polished_cut_andesite_stairs
+- create:polished_cut_andesite_wall
+- create:polished_cut_asurine
+- create:polished_cut_asurine_slab
+- create:polished_cut_asurine_stairs
+- create:polished_cut_asurine_wall
+- create:polished_cut_calcite
+- create:polished_cut_calcite_slab
+- create:polished_cut_calcite_stairs
+- create:polished_cut_calcite_wall
+- create:polished_cut_crimsite
+- create:polished_cut_crimsite_slab
+- create:polished_cut_crimsite_stairs
+- create:polished_cut_crimsite_wall
+- create:polished_cut_deepslate
+- create:polished_cut_deepslate_slab
+- create:polished_cut_deepslate_stairs
+- create:polished_cut_deepslate_wall
+- create:polished_cut_diorite
+- create:polished_cut_diorite_slab
+- create:polished_cut_diorite_stairs
+- create:polished_cut_diorite_wall
+- create:polished_cut_dripstone
+- create:polished_cut_dripstone_slab
+- create:polished_cut_dripstone_stairs
+- create:polished_cut_dripstone_wall
+- create:polished_cut_granite
+- create:polished_cut_granite_slab
+- create:polished_cut_granite_stairs
+- create:polished_cut_granite_wall
+- create:polished_cut_limestone
+- create:polished_cut_limestone_slab
+- create:polished_cut_limestone_stairs
+- create:polished_cut_limestone_wall
+- create:polished_cut_ochrum
+- create:polished_cut_ochrum_slab
+- create:polished_cut_ochrum_stairs
+- create:polished_cut_ochrum_wall
+- create:polished_cut_scorchia
+- create:polished_cut_scorchia_slab
+- create:polished_cut_scorchia_stairs
+- create:polished_cut_scorchia_wall
+- create:polished_cut_scoria
+- create:polished_cut_scoria_slab
+- create:polished_cut_scoria_stairs
+- create:polished_cut_scoria_wall
+- create:polished_cut_tuff
+- create:polished_cut_tuff_slab
+- create:polished_cut_tuff_stairs
+- create:polished_cut_tuff_wall
+- create:polished_cut_veridium
+- create:polished_cut_veridium_slab
+- create:polished_cut_veridium_stairs
+- create:polished_cut_veridium_wall
+- create:portable_fluid_interface
+- create:portable_storage_interface
+- create:powered_latch
+- create:powered_shaft
+- create:powered_toggle_latch
+- create:pulley_magnet
+- create:pulse_extender
+- create:pulse_repeater
+- create:pulse_timer
+- create:purple_nixie_tube
+- create:purple_postbox
+- create:purple_sail
+- create:purple_seat
+- create:purple_table_cloth
+- create:purple_toolbox
+- create:purple_valve_handle
+- create:radial_chassis
+- create:railway_casing
+- create:raw_zinc_block
+- create:red_nixie_tube
+- create:red_postbox
+- create:red_sail
+- create:red_seat
+- create:red_table_cloth
+- create:red_toolbox
+- create:red_valve_handle
+- create:redstone_contact
+- create:redstone_link
+- create:redstone_requester
+- create:refined_radiance_casing
+- create:repackager
+- create:rope
+- create:rope_pulley
+- create:rose_quartz_block
+- create:rose_quartz_lamp
+- create:rose_quartz_tiles
+- create:rotation_speed_controller
+- create:sail_frame
+- create:schematic_table
+- create:schematicannon
+- create:scorchia
+- create:scorchia_pillar
+- create:scoria
+- create:scoria_pillar
+- create:secondary_linear_chassis
+- create:sequenced_gearshift
+- create:shadow_steel_casing
+- create:shaft
+- create:small_andesite_brick_slab
+- create:small_andesite_brick_stairs
+- create:small_andesite_brick_wall
+- create:small_andesite_bricks
+- create:small_asurine_brick_slab
+- create:small_asurine_brick_stairs
+- create:small_asurine_brick_wall
+- create:small_asurine_bricks
+- create:small_bogey
+- create:small_calcite_brick_slab
+- create:small_calcite_brick_stairs
+- create:small_calcite_brick_wall
+- create:small_calcite_bricks
+- create:small_crimsite_brick_slab
+- create:small_crimsite_brick_stairs
+- create:small_crimsite_brick_wall
+- create:small_crimsite_bricks
+- create:small_deepslate_brick_slab
+- create:small_deepslate_brick_stairs
+- create:small_deepslate_brick_wall
+- create:small_deepslate_bricks
+- create:small_diorite_brick_slab
+- create:small_diorite_brick_stairs
+- create:small_diorite_brick_wall
+- create:small_diorite_bricks
+- create:small_dripstone_brick_slab
+- create:small_dripstone_brick_stairs
+- create:small_dripstone_brick_wall
+- create:small_dripstone_bricks
+- create:small_granite_brick_slab
+- create:small_granite_brick_stairs
+- create:small_granite_brick_wall
+- create:small_granite_bricks
+- create:small_limestone_brick_slab
+- create:small_limestone_brick_stairs
+- create:small_limestone_brick_wall
+- create:small_limestone_bricks
+- create:small_ochrum_brick_slab
+- create:small_ochrum_brick_stairs
+- create:small_ochrum_brick_wall
+- create:small_ochrum_bricks
+- create:small_rose_quartz_tiles
+- create:small_scorchia_brick_slab
+- create:small_scorchia_brick_stairs
+- create:small_scorchia_brick_wall
+- create:small_scorchia_bricks
+- create:small_scoria_brick_slab
+- create:small_scoria_brick_stairs
+- create:small_scoria_brick_wall
+- create:small_scoria_bricks
+- create:small_tuff_brick_slab
+- create:small_tuff_brick_stairs
+- create:small_tuff_brick_wall
+- create:small_tuff_bricks
+- create:small_veridium_brick_slab
+- create:small_veridium_brick_stairs
+- create:small_veridium_brick_wall
+- create:small_veridium_bricks
+- create:smart_chute
+- create:smart_fluid_pipe
+- create:speedometer
+- create:spout
+- create:spruce_window
+- create:spruce_window_pane
+- create:steam_engine
+- create:steam_whistle
+- create:steam_whistle_extension
+- create:sticker
+- create:sticky_mechanical_piston
+- create:stock_link
+- create:stock_ticker
+- create:stockpile_switch
+- create:stressometer
+- create:tiled_glass
+- create:tiled_glass_pane
+- create:track
+- create:track_observer
+- create:track_signal
+- create:track_station
+- create:train_door
+- create:train_trapdoor
+- create:tuff_pillar
+- create:turntable
+- create:veridium
+- create:veridium_pillar
+- create:vertical_framed_glass
+- create:vertical_framed_glass_pane
+- create:warped_window
+- create:warped_window_pane
+- create:water_wheel
+- create:water_wheel_structure
+- create:waxed_copper_shingle_slab
+- create:waxed_copper_shingle_stairs
+- create:waxed_copper_shingles
+- create:waxed_copper_tile_slab
+- create:waxed_copper_tile_stairs
+- create:waxed_copper_tiles
+- create:waxed_exposed_copper_shingle_slab
+- create:waxed_exposed_copper_shingle_stairs
+- create:waxed_exposed_copper_shingles
+- create:waxed_exposed_copper_tile_slab
+- create:waxed_exposed_copper_tile_stairs
+- create:waxed_exposed_copper_tiles
+- create:waxed_oxidized_copper_shingle_slab
+- create:waxed_oxidized_copper_shingle_stairs
+- create:waxed_oxidized_copper_shingles
+- create:waxed_oxidized_copper_tile_slab
+- create:waxed_oxidized_copper_tile_stairs
+- create:waxed_oxidized_copper_tiles
+- create:waxed_weathered_copper_shingle_slab
+- create:waxed_weathered_copper_shingle_stairs
+- create:waxed_weathered_copper_shingles
+- create:waxed_weathered_copper_tile_slab
+- create:waxed_weathered_copper_tile_stairs
+- create:waxed_weathered_copper_tiles
+- create:weathered_copper_shingle_slab
+- create:weathered_copper_shingle_stairs
+- create:weathered_copper_shingles
+- create:weathered_copper_tile_slab
+- create:weathered_copper_tile_stairs
+- create:weathered_copper_tiles
+- create:weathered_iron_block
+- create:weathered_iron_window
+- create:weathered_iron_window_pane
+- create:weighted_ejector
+- create:white_nixie_tube
+- create:white_postbox
+- create:white_sail
+- create:white_seat
+- create:white_table_cloth
+- create:white_toolbox
+- create:white_valve_handle
+- create:windmill_bearing
+- create:wooden_bracket
+- create:yellow_nixie_tube
+- create:yellow_postbox
+- create:yellow_sail
+- create:yellow_seat
+- create:yellow_table_cloth
+- create:yellow_toolbox
+- create:yellow_valve_handle
+- create:zinc_block
+- create:zinc_ore
+
+### items (182)
+
+- create:acacia_window_pane
+- create:andesite_alloy
+- create:andesite_bars
+- create:andesite_door
+- create:andesite_ladder
+- create:attribute_filter
+- create:bamboo_window_pane
+- create:bar_of_chocolate
+- create:belt_connector
+- create:birch_window_pane
+- create:blaze_cake
+- create:blaze_cake_base
+- create:brass_bars
+- create:brass_door
+- create:brass_hand
+- create:brass_ingot
+- create:brass_ladder
+- create:brass_nugget
+- create:brass_sheet
+- create:builders_tea
+- create:cardboard
+- create:cardboard_boots
+- create:cardboard_boots_amethyst_trim
+- create:cardboard_boots_copper_trim
+- create:cardboard_boots_diamond_trim
+- create:cardboard_boots_emerald_trim
+- create:cardboard_boots_gold_trim
+- create:cardboard_boots_iron_trim
+- create:cardboard_boots_lapis_trim
+- create:cardboard_boots_netherite_trim
+- create:cardboard_boots_quartz_trim
+- create:cardboard_boots_redstone_trim
+- create:cardboard_chestplate
+- create:cardboard_chestplate_amethyst_trim
+- create:cardboard_chestplate_copper_trim
+- create:cardboard_chestplate_diamond_trim
+- create:cardboard_chestplate_emerald_trim
+- create:cardboard_chestplate_gold_trim
+- create:cardboard_chestplate_iron_trim
+- create:cardboard_chestplate_lapis_trim
+- create:cardboard_chestplate_netherite_trim
+- create:cardboard_chestplate_quartz_trim
+- create:cardboard_chestplate_redstone_trim
+- create:cardboard_helmet
+- create:cardboard_helmet_amethyst_trim
+- create:cardboard_helmet_copper_trim
+- create:cardboard_helmet_diamond_trim
+- create:cardboard_helmet_emerald_trim
+- create:cardboard_helmet_gold_trim
+- create:cardboard_helmet_iron_trim
+- create:cardboard_helmet_lapis_trim
+- create:cardboard_helmet_netherite_trim
+- create:cardboard_helmet_quartz_trim
+- create:cardboard_helmet_redstone_trim
+- create:cardboard_leggings
+- create:cardboard_leggings_amethyst_trim
+- create:cardboard_leggings_copper_trim
+- create:cardboard_leggings_diamond_trim
+- create:cardboard_leggings_emerald_trim
+- create:cardboard_leggings_gold_trim
+- create:cardboard_leggings_iron_trim
+- create:cardboard_leggings_lapis_trim
+- create:cardboard_leggings_netherite_trim
+- create:cardboard_leggings_quartz_trim
+- create:cardboard_leggings_redstone_trim
+- create:cardboard_package_10x12
+- create:cardboard_package_10x8
+- create:cardboard_package_12x10
+- create:cardboard_package_12x12
+- create:cardboard_sword
+- create:cherry_window_pane
+- create:chest_minecart_contraption
+- create:chocolate_bucket
+- create:chocolate_glazed_berries
+- create:chromatic_compound
+- create:cinder_flour
+- create:clipboard
+- create:clipboard_0
+- create:clipboard_1
+- create:clipboard_2
+- create:controller_rail
+- create:copper_backtank_placeable
+- create:copper_bars
+- create:copper_diving_boots
+- create:copper_diving_helmet
+- create:copper_door
+- create:copper_ladder
+- create:copper_nugget
+- create:copper_sheet
+- create:crafter_slot_cover
+- create:crafting_blueprint
+- create:creative_blaze_cake
+- create:crimson_window_pane
+- create:crushed_raw_aluminum
+- create:crushed_raw_copper
+- create:crushed_raw_gold
+- create:crushed_raw_iron
+- create:crushed_raw_lead
+- create:crushed_raw_nickel
+- create:crushed_raw_osmium
+- create:crushed_raw_platinum
+- create:crushed_raw_quicksilver
+- create:crushed_raw_silver
+- create:crushed_raw_tin
+- create:crushed_raw_uranium
+- create:crushed_raw_zinc
+- create:dark_oak_window_pane
+- create:dough
+- create:electron_tube
+- create:empty_schematic
+- create:experience_nugget
+- create:extendo_grip
+- create:filter
+- create:framed_glass_door
+- create:framed_glass_pane
+- create:furnace_minecart_contraption
+- create:goggles
+- create:golden_sheet
+- create:handheld_worldshaper
+- create:honey_bucket
+- create:honeyed_apple
+- create:horizontal_framed_glass_pane
+- create:incomplete_precision_mechanism
+- create:incomplete_track
+- create:industrial_iron_window_pane
+- create:iron_sheet
+- create:jungle_window_pane
+- create:linked_controller
+- create:mangrove_window_pane
+- create:minecart_contraption
+- create:minecart_coupling
+- create:netherite_backtank_placeable
+- create:netherite_diving_boots
+- create:netherite_diving_helmet
+- create:oak_window_pane
+- create:ornate_iron_window_pane
+- create:package_filter
+- create:polished_rose_quartz
+- create:potato_cannon
+- create:powdered_obsidian
+- create:precision_mechanism
+- create:propeller
+- create:pulp
+- create:rare_creeper_package
+- create:rare_darcy_package
+- create:rare_evan_package
+- create:rare_jinx_package
+- create:rare_kryppers_package
+- create:rare_simi_package
+- create:rare_starlotte_package
+- create:rare_thunder_package
+- create:rare_up_package
+- create:rare_vector_package
+- create:raw_zinc
+- create:red_sand_paper
+- create:refined_radiance
+- create:rose_quartz
+- create:sand_paper
+- create:schedule
+- create:schematic
+- create:schematic_and_quill
+- create:shadow_steel
+- create:shopping_list
+- create:spruce_window_pane
+- create:sturdy_sheet
+- create:super_glue
+- create:sweet_roll
+- create:tiled_glass_pane
+- create:track
+- create:train_door
+- create:transmitter
+- create:tree_fertilizer
+- create:unprocessed_obsidian_sheet
+- create:vertical_framed_glass_pane
+- create:wand_of_symmetry
+- create:warped_window_pane
+- create:weathered_iron_window_pane
+- create:wheat_flour
+- create:whisk
+- create:wrench
+- create:zinc_ingot
+- create:zinc_nugget
+
+### recipes (469)
+
+- create:acacia_window_pane
+- create:bamboo_window_pane
+- create:birch_window_pane
+- create:blasting_copper_ingot_from_crushed
+- create:blasting_gold_ingot_from_crushed
+- create:blasting_ingot_aluminium_compat_ic2
+- create:blasting_ingot_aluminum_compat_immersiveengineering
+- create:blasting_ingot_lead_compat_immersiveengineering
+- create:blasting_ingot_lead_compat_mekanism
+- create:blasting_ingot_nickel_compat_immersiveengineering
+- create:blasting_ingot_osmium_compat_mekanism
+- create:blasting_ingot_silver_compat_ic2
+- create:blasting_ingot_silver_compat_immersiveengineering
+- create:blasting_ingot_tin_compat_ic2
+- create:blasting_ingot_tin_compat_mekanism
+- create:blasting_ingot_uranium_compat_ic2
+- create:blasting_ingot_uranium_compat_immersiveengineering
+- create:blasting_ingot_uranium_compat_mekanism
+- create:blasting_iron_ingot_from_crushed
+- create:blasting_lead_ingot_compat_oreganized
+- create:blasting_lead_ingot_compat_thermal
+- create:blasting_nickel_ingot_compat_thermal
+- create:blasting_silver_ingot_compat_galosphere
+- create:blasting_silver_ingot_compat_iceandfire
+- create:blasting_silver_ingot_compat_oreganized
+- create:blasting_silver_ingot_compat_thermal
+- create:blasting_tin_ingot_compat_thermal
+- create:blasting_zinc_ingot_from_crushed
+- create:campfire_cooking_bread
+- create:cherry_window_pane
+- create:copper_shingle_slab
+- create:copper_shingle_stairs
+- create:copper_tile_slab
+- create:copper_tile_stairs
+- create:crafting_appliances_attribute_filter_clear
+- create:crafting_appliances_book
+- create:crafting_appliances_cardboard_boots
+- create:crafting_appliances_cardboard_chestplate
+- create:crafting_appliances_cardboard_helmet
+- create:crafting_appliances_cardboard_leggings
+- create:crafting_appliances_clipboard_clear
+- create:crafting_appliances_crafting_blueprint
+- create:crafting_appliances_filter_clear
+- create:crafting_appliances_package_filter_clear
+- create:crafting_appliances_schedule_clear
+- create:crafting_copper_waxed_copper_shingle_slab_from_honeycomb
+- create:crafting_copper_waxed_copper_shingle_stairs_from_honeycomb
+- create:crafting_copper_waxed_copper_shingles_from_honeycomb
+- create:crafting_copper_waxed_copper_tile_slab_from_honeycomb
+- create:crafting_copper_waxed_copper_tile_stairs_from_honeycomb
+- create:crafting_copper_waxed_copper_tiles_from_honeycomb
+- create:crafting_copper_waxed_exposed_copper_shingle_slab_from_honeycomb
+- create:crafting_copper_waxed_exposed_copper_shingle_stairs_from_honeycomb
+- create:crafting_copper_waxed_exposed_copper_shingles_from_honeycomb
+- create:crafting_copper_waxed_exposed_copper_tile_slab_from_honeycomb
+- create:crafting_copper_waxed_exposed_copper_tile_stairs_from_honeycomb
+- create:crafting_copper_waxed_exposed_copper_tiles_from_honeycomb
+- create:crafting_copper_waxed_oxidized_copper_shingle_slab_from_honeycomb
+- create:crafting_copper_waxed_oxidized_copper_shingle_stairs_from_honeycomb
+- create:crafting_copper_waxed_oxidized_copper_shingles_from_honeycomb
+- create:crafting_copper_waxed_oxidized_copper_tile_slab_from_honeycomb
+- create:crafting_copper_waxed_oxidized_copper_tile_stairs_from_honeycomb
+- create:crafting_copper_waxed_oxidized_copper_tiles_from_honeycomb
+- create:crafting_copper_waxed_weathered_copper_shingle_slab_from_honeycomb
+- create:crafting_copper_waxed_weathered_copper_shingle_stairs_from_honeycomb
+- create:crafting_copper_waxed_weathered_copper_shingles_from_honeycomb
+- create:crafting_copper_waxed_weathered_copper_tile_slab_from_honeycomb
+- create:crafting_copper_waxed_weathered_copper_tile_stairs_from_honeycomb
+- create:crafting_copper_waxed_weathered_copper_tiles_from_honeycomb
+- create:crafting_kinetics_adjustable_chain_gearshift
+- create:crafting_kinetics_basin
+- create:crafting_kinetics_belt_connector
+- create:crafting_kinetics_chain_conveyor
+- create:crafting_kinetics_controls
+- create:crafting_kinetics_deployer
+- create:crafting_kinetics_depot
+- create:crafting_kinetics_display_board
+- create:crafting_kinetics_encased_fan
+- create:crafting_kinetics_furnace_minecart_from_contraption_cart
+- create:crafting_kinetics_gearbox
+- create:crafting_kinetics_gearbox_from_conversion
+- create:crafting_kinetics_item_drain
+- create:crafting_kinetics_linear_chassis_from_conversion
+- create:crafting_kinetics_mechanical_crafter
+- create:crafting_kinetics_mechanical_mixer
+- create:crafting_kinetics_mechanical_pump
+- create:crafting_kinetics_mechanical_roller
+- create:crafting_kinetics_minecart_from_contraption_cart
+- create:crafting_kinetics_nixie_tube
+- create:crafting_kinetics_portable_fluid_interface
+- create:crafting_kinetics_portable_storage_interface
+- create:crafting_kinetics_rotation_speed_controller
+- create:crafting_kinetics_sail_frame_from_conversion
+- create:crafting_kinetics_secondary_linear_chassis_from_conversion
+- create:crafting_kinetics_sequenced_gearshift
+- create:crafting_kinetics_shaft
+- create:crafting_kinetics_speedometer
+- create:crafting_kinetics_speedometer_from_conversion
+- create:crafting_kinetics_spout
+- create:crafting_kinetics_stressometer_from_conversion
+- create:crafting_kinetics_track_observer_from_other_plates
+- create:crafting_kinetics_track_signal
+- create:crafting_kinetics_track_station
+- create:crafting_kinetics_vertical_gearbox
+- create:crafting_kinetics_vertical_gearbox_from_conversion
+- create:crafting_kinetics_white_sail_from_conversion
+- create:crafting_logistics_andesite_funnel
+- create:crafting_logistics_andesite_table_cloth_clear
+- create:crafting_logistics_andesite_tunnel
+- create:crafting_logistics_black_table_cloth
+- create:crafting_logistics_black_table_cloth_clear
+- create:crafting_logistics_blue_table_cloth
+- create:crafting_logistics_blue_table_cloth_clear
+- create:crafting_logistics_brass_table_cloth_clear
+- create:crafting_logistics_brown_table_cloth
+- create:crafting_logistics_brown_table_cloth_clear
+- create:crafting_logistics_content_observer
+- create:crafting_logistics_copper_table_cloth_clear
+- create:crafting_logistics_cyan_table_cloth
+- create:crafting_logistics_cyan_table_cloth_clear
+- create:crafting_logistics_display_link
+- create:crafting_logistics_factory_gauge
+- create:crafting_logistics_factory_gauge_clear
+- create:crafting_logistics_gray_table_cloth
+- create:crafting_logistics_gray_table_cloth_clear
+- create:crafting_logistics_green_table_cloth
+- create:crafting_logistics_green_table_cloth_clear
+- create:crafting_logistics_item_hatch
+- create:crafting_logistics_light_blue_table_cloth
+- create:crafting_logistics_light_blue_table_cloth_clear
+- create:crafting_logistics_light_gray_table_cloth
+- create:crafting_logistics_light_gray_table_cloth_clear
+- create:crafting_logistics_lime_table_cloth
+- create:crafting_logistics_lime_table_cloth_clear
+- create:crafting_logistics_magenta_table_cloth
+- create:crafting_logistics_magenta_table_cloth_clear
+- create:crafting_logistics_orange_table_cloth
+- create:crafting_logistics_orange_table_cloth_clear
+- create:crafting_logistics_packager_from_conversion
+- create:crafting_logistics_pink_table_cloth
+- create:crafting_logistics_pink_table_cloth_clear
+- create:crafting_logistics_purple_table_cloth
+- create:crafting_logistics_purple_table_cloth_clear
+- create:crafting_logistics_red_table_cloth
+- create:crafting_logistics_red_table_cloth_clear
+- create:crafting_logistics_redstone_link
+- create:crafting_logistics_redstone_requester_clear
+- create:crafting_logistics_repackager_from_conversion
+- create:crafting_logistics_stock_link
+- create:crafting_logistics_stock_link_clear
+- create:crafting_logistics_stock_ticker_clear
+- create:crafting_logistics_stockpile_switch
+- create:crafting_logistics_white_table_cloth
+- create:crafting_logistics_white_table_cloth_clear
+- create:crafting_logistics_yellow_table_cloth
+- create:crafting_logistics_yellow_table_cloth_clear
+- create:crafting_materials_andesite_alloy_block
+- create:crafting_materials_andesite_alloy_from_block
+- create:crafting_materials_cardboard_block
+- create:crafting_materials_cardboard_from_block
+- create:crafting_materials_cardboard_from_bound_block
+- create:crafting_materials_experience_block
+- create:crafting_materials_experience_nugget_from_block
+- create:crafting_materials_raw_zinc
+- create:crafting_materials_raw_zinc_block
+- create:crafting_materials_rose_quartz_tiles_from_conversion
+- create:crafting_materials_small_rose_quartz_tiles_from_conversion
+- create:crimson_window_pane
+- create:cut_andesite_brick_slab
+- create:cut_andesite_brick_slab_recycling
+- create:cut_andesite_brick_stairs
+- create:cut_andesite_brick_wall
+- create:cut_andesite_slab
+- create:cut_andesite_slab_recycling
+- create:cut_andesite_stairs
+- create:cut_andesite_wall
+- create:cut_asurine_brick_slab
+- create:cut_asurine_brick_slab_recycling
+- create:cut_asurine_brick_stairs
+- create:cut_asurine_brick_wall
+- create:cut_asurine_slab
+- create:cut_asurine_slab_recycling
+- create:cut_asurine_stairs
+- create:cut_asurine_wall
+- create:cut_calcite_brick_slab
+- create:cut_calcite_brick_slab_recycling
+- create:cut_calcite_brick_stairs
+- create:cut_calcite_brick_wall
+- create:cut_calcite_slab
+- create:cut_calcite_slab_recycling
+- create:cut_calcite_stairs
+- create:cut_calcite_wall
+- create:cut_crimsite_brick_slab
+- create:cut_crimsite_brick_slab_recycling
+- create:cut_crimsite_brick_stairs
+- create:cut_crimsite_brick_wall
+- create:cut_crimsite_slab
+- create:cut_crimsite_slab_recycling
+- create:cut_crimsite_stairs
+- create:cut_crimsite_wall
+- create:cut_deepslate_brick_slab
+- create:cut_deepslate_brick_slab_recycling
+- create:cut_deepslate_brick_stairs
+- create:cut_deepslate_brick_wall
+- create:cut_deepslate_slab
+- create:cut_deepslate_slab_recycling
+- create:cut_deepslate_stairs
+- create:cut_deepslate_wall
+- create:cut_diorite_brick_slab
+- create:cut_diorite_brick_slab_recycling
+- create:cut_diorite_brick_stairs
+- create:cut_diorite_brick_wall
+- create:cut_diorite_slab
+- create:cut_diorite_slab_recycling
+- create:cut_diorite_stairs
+- create:cut_diorite_wall
+- create:cut_dripstone_brick_slab
+- create:cut_dripstone_brick_slab_recycling
+- create:cut_dripstone_brick_stairs
+- create:cut_dripstone_brick_wall
+- create:cut_dripstone_slab
+- create:cut_dripstone_slab_recycling
+- create:cut_dripstone_stairs
+- create:cut_dripstone_wall
+- create:cut_granite_brick_slab
+- create:cut_granite_brick_slab_recycling
+- create:cut_granite_brick_stairs
+- create:cut_granite_brick_wall
+- create:cut_granite_slab
+- create:cut_granite_slab_recycling
+- create:cut_granite_stairs
+- create:cut_granite_wall
+- create:cut_limestone_brick_slab
+- create:cut_limestone_brick_slab_recycling
+- create:cut_limestone_brick_stairs
+- create:cut_limestone_brick_wall
+- create:cut_limestone_slab
+- create:cut_limestone_slab_recycling
+- create:cut_limestone_stairs
+- create:cut_limestone_wall
+- create:cut_ochrum_brick_slab
+- create:cut_ochrum_brick_slab_recycling
+- create:cut_ochrum_brick_stairs
+- create:cut_ochrum_brick_wall
+- create:cut_ochrum_slab
+- create:cut_ochrum_slab_recycling
+- create:cut_ochrum_stairs
+- create:cut_ochrum_wall
+- create:cut_scorchia_brick_slab
+- create:cut_scorchia_brick_slab_recycling
+- create:cut_scorchia_brick_stairs
+- create:cut_scorchia_brick_wall
+- create:cut_scorchia_slab
+- create:cut_scorchia_slab_recycling
+- create:cut_scorchia_stairs
+- create:cut_scorchia_wall
+- create:cut_scoria_brick_slab
+- create:cut_scoria_brick_slab_recycling
+- create:cut_scoria_brick_stairs
+- create:cut_scoria_brick_wall
+- create:cut_scoria_slab
+- create:cut_scoria_slab_recycling
+- create:cut_scoria_stairs
+- create:cut_scoria_wall
+- create:cut_tuff_brick_slab
+- create:cut_tuff_brick_slab_recycling
+- create:cut_tuff_brick_stairs
+- create:cut_tuff_brick_wall
+- create:cut_tuff_slab
+- create:cut_tuff_slab_recycling
+- create:cut_tuff_stairs
+- create:cut_tuff_wall
+- create:cut_veridium_brick_slab
+- create:cut_veridium_brick_slab_recycling
+- create:cut_veridium_brick_stairs
+- create:cut_veridium_brick_wall
+- create:cut_veridium_slab
+- create:cut_veridium_slab_recycling
+- create:cut_veridium_stairs
+- create:cut_veridium_wall
+- create:dark_oak_window_pane
+- create:exposed_copper_shingle_slab
+- create:exposed_copper_shingle_stairs
+- create:exposed_copper_tile_slab
+- create:exposed_copper_tile_stairs
+- create:framed_glass_pane
+- create:horizontal_framed_glass_pane
+- create:industrial_iron_window_pane
+- create:jungle_window_pane
+- create:mangrove_window_pane
+- create:oak_window_pane
+- create:ornate_iron_window_pane
+- create:oxidized_copper_shingle_slab
+- create:oxidized_copper_shingle_stairs
+- create:oxidized_copper_tile_slab
+- create:oxidized_copper_tile_stairs
+- create:polished_cut_andesite_slab
+- create:polished_cut_andesite_slab_recycling
+- create:polished_cut_andesite_stairs
+- create:polished_cut_andesite_wall
+- create:polished_cut_asurine_slab
+- create:polished_cut_asurine_slab_recycling
+- create:polished_cut_asurine_stairs
+- create:polished_cut_asurine_wall
+- create:polished_cut_calcite_slab
+- create:polished_cut_calcite_slab_recycling
+- create:polished_cut_calcite_stairs
+- create:polished_cut_calcite_wall
+- create:polished_cut_crimsite_slab
+- create:polished_cut_crimsite_slab_recycling
+- create:polished_cut_crimsite_stairs
+- create:polished_cut_crimsite_wall
+- create:polished_cut_deepslate_slab
+- create:polished_cut_deepslate_slab_recycling
+- create:polished_cut_deepslate_stairs
+- create:polished_cut_deepslate_wall
+- create:polished_cut_diorite_slab
+- create:polished_cut_diorite_slab_recycling
+- create:polished_cut_diorite_stairs
+- create:polished_cut_diorite_wall
+- create:polished_cut_dripstone_slab
+- create:polished_cut_dripstone_slab_recycling
+- create:polished_cut_dripstone_stairs
+- create:polished_cut_dripstone_wall
+- create:polished_cut_granite_slab
+- create:polished_cut_granite_slab_recycling
+- create:polished_cut_granite_stairs
+- create:polished_cut_granite_wall
+- create:polished_cut_limestone_slab
+- create:polished_cut_limestone_slab_recycling
+- create:polished_cut_limestone_stairs
+- create:polished_cut_limestone_wall
+- create:polished_cut_ochrum_slab
+- create:polished_cut_ochrum_slab_recycling
+- create:polished_cut_ochrum_stairs
+- create:polished_cut_ochrum_wall
+- create:polished_cut_scorchia_slab
+- create:polished_cut_scorchia_slab_recycling
+- create:polished_cut_scorchia_stairs
+- create:polished_cut_scorchia_wall
+- create:polished_cut_scoria_slab
+- create:polished_cut_scoria_slab_recycling
+- create:polished_cut_scoria_stairs
+- create:polished_cut_scoria_wall
+- create:polished_cut_tuff_slab
+- create:polished_cut_tuff_slab_recycling
+- create:polished_cut_tuff_stairs
+- create:polished_cut_tuff_wall
+- create:polished_cut_veridium_slab
+- create:polished_cut_veridium_slab_recycling
+- create:polished_cut_veridium_stairs
+- create:polished_cut_veridium_wall
+- create:small_andesite_brick_slab
+- create:small_andesite_brick_slab_recycling
+- create:small_andesite_brick_stairs
+- create:small_andesite_brick_wall
+- create:small_asurine_brick_slab
+- create:small_asurine_brick_slab_recycling
+- create:small_asurine_brick_stairs
+- create:small_asurine_brick_wall
+- create:small_calcite_brick_slab
+- create:small_calcite_brick_slab_recycling
+- create:small_calcite_brick_stairs
+- create:small_calcite_brick_wall
+- create:small_crimsite_brick_slab
+- create:small_crimsite_brick_slab_recycling
+- create:small_crimsite_brick_stairs
+- create:small_crimsite_brick_wall
+- create:small_deepslate_brick_slab
+- create:small_deepslate_brick_slab_recycling
+- create:small_deepslate_brick_stairs
+- create:small_deepslate_brick_wall
+- create:small_diorite_brick_slab
+- create:small_diorite_brick_slab_recycling
+- create:small_diorite_brick_stairs
+- create:small_diorite_brick_wall
+- create:small_dripstone_brick_slab
+- create:small_dripstone_brick_slab_recycling
+- create:small_dripstone_brick_stairs
+- create:small_dripstone_brick_wall
+- create:small_granite_brick_slab
+- create:small_granite_brick_slab_recycling
+- create:small_granite_brick_stairs
+- create:small_granite_brick_wall
+- create:small_limestone_brick_slab
+- create:small_limestone_brick_slab_recycling
+- create:small_limestone_brick_stairs
+- create:small_limestone_brick_wall
+- create:small_ochrum_brick_slab
+- create:small_ochrum_brick_slab_recycling
+- create:small_ochrum_brick_stairs
+- create:small_ochrum_brick_wall
+- create:small_scorchia_brick_slab
+- create:small_scorchia_brick_slab_recycling
+- create:small_scorchia_brick_stairs
+- create:small_scorchia_brick_wall
+- create:small_scoria_brick_slab
+- create:small_scoria_brick_slab_recycling
+- create:small_scoria_brick_stairs
+- create:small_scoria_brick_wall
+- create:small_tuff_brick_slab
+- create:small_tuff_brick_slab_recycling
+- create:small_tuff_brick_stairs
+- create:small_tuff_brick_wall
+- create:small_veridium_brick_slab
+- create:small_veridium_brick_slab_recycling
+- create:small_veridium_brick_stairs
+- create:small_veridium_brick_wall
+- create:smelting_bread
+- create:smelting_copper_ingot_from_crushed
+- create:smelting_glass_from_framed_glass
+- create:smelting_glass_from_horizontal_framed_glass
+- create:smelting_glass_from_tiled_glass
+- create:smelting_glass_from_vertical_framed_glass
+- create:smelting_glass_pane_from_framed_glass_pane
+- create:smelting_glass_pane_from_horizontal_framed_glass_pane
+- create:smelting_glass_pane_from_tiled_glass_pane
+- create:smelting_glass_pane_from_vertical_framed_glass_pane
+- create:smelting_gold_ingot_from_crushed
+- create:smelting_ingot_aluminium_compat_ic2
+- create:smelting_ingot_aluminum_compat_immersiveengineering
+- create:smelting_ingot_lead_compat_immersiveengineering
+- create:smelting_ingot_lead_compat_mekanism
+- create:smelting_ingot_nickel_compat_immersiveengineering
+- create:smelting_ingot_osmium_compat_mekanism
+- create:smelting_ingot_silver_compat_ic2
+- create:smelting_ingot_silver_compat_immersiveengineering
+- create:smelting_ingot_tin_compat_ic2
+- create:smelting_ingot_tin_compat_mekanism
+- create:smelting_ingot_uranium_compat_ic2
+- create:smelting_ingot_uranium_compat_immersiveengineering
+- create:smelting_ingot_uranium_compat_mekanism
+- create:smelting_iron_ingot_from_crushed
+- create:smelting_lead_ingot_compat_oreganized
+- create:smelting_lead_ingot_compat_thermal
+- create:smelting_nickel_ingot_compat_thermal
+- create:smelting_scoria
+- create:smelting_silver_ingot_compat_galosphere
+- create:smelting_silver_ingot_compat_iceandfire
+- create:smelting_silver_ingot_compat_oreganized
+- create:smelting_silver_ingot_compat_thermal
+- create:smelting_tin_ingot_compat_thermal
+- create:smelting_zinc_ingot_from_crushed
+- create:smoking_bread
+- create:spruce_window_pane
+- create:tiled_glass_pane
+- create:vertical_framed_glass_pane
+- create:warped_window_pane
+- create:waxed_copper_shingle_slab
+- create:waxed_copper_shingle_stairs
+- create:waxed_copper_tile_slab
+- create:waxed_copper_tile_stairs
+- create:waxed_exposed_copper_shingle_slab
+- create:waxed_exposed_copper_shingle_stairs
+- create:waxed_exposed_copper_tile_slab
+- create:waxed_exposed_copper_tile_stairs
+- create:waxed_oxidized_copper_shingle_slab
+- create:waxed_oxidized_copper_shingle_stairs
+- create:waxed_oxidized_copper_tile_slab
+- create:waxed_oxidized_copper_tile_stairs
+- create:waxed_weathered_copper_shingle_slab
+- create:waxed_weathered_copper_shingle_stairs
+- create:waxed_weathered_copper_tile_slab
+- create:waxed_weathered_copper_tile_stairs
+- create:weathered_copper_shingle_slab
+- create:weathered_copper_shingle_stairs
+- create:weathered_copper_tile_slab
+- create:weathered_copper_tile_stairs
+- create:weathered_iron_window_pane
+
+### textures (702)
+
+- create:acacia_window
+- create:acacia_window_pane
+- create:adjustable_chain_gearshift
+- create:analog_lever
+- create:andesite_alloy
+- create:andesite_alloy_block
+- create:andesite_bars
+- create:andesite_belt_funnel
+- create:andesite_casing
+- create:andesite_door
+- create:andesite_door
+- create:andesite_encased_cogwheel
+- create:andesite_encased_large_cogwheel
+- create:andesite_encased_shaft
+- create:andesite_funnel
+- create:andesite_ladder
+- create:andesite_ladder
+- create:andesite_pillar
+- create:andesite_scaffolding
+- create:andesite_table_cloth
+- create:andesite_tunnel
+- create:asurine
+- create:asurine_pillar
+- create:attribute_filter
+- create:bamboo_window
+- create:bamboo_window_pane
+- create:bar_of_chocolate
+- create:basin
+- create:belt
+- create:belt_connector
+- create:birch_window
+- create:birch_window_pane
+- create:black_postbox
+- create:black_sail
+- create:black_seat
+- create:black_table_cloth
+- create:black_toolbox
+- create:black_valve_handle
+- create:blaze_burner
+- create:blaze_cake
+- create:blaze_cake_base
+- create:blue_postbox
+- create:blue_sail
+- create:blue_seat
+- create:blue_table_cloth
+- create:blue_toolbox
+- create:blue_valve_handle
+- create:bound_cardboard_block
+- create:brass_bars
+- create:brass_belt_funnel
+- create:brass_block
+- create:brass_casing
+- create:brass_door
+- create:brass_door
+- create:brass_encased_cogwheel
+- create:brass_encased_large_cogwheel
+- create:brass_encased_shaft
+- create:brass_funnel
+- create:brass_hand
+- create:brass_ingot
+- create:brass_ladder
+- create:brass_ladder
+- create:brass_nugget
+- create:brass_scaffolding
+- create:brass_sheet
+- create:brass_table_cloth
+- create:brass_tunnel
+- create:brown_postbox
+- create:brown_sail
+- create:brown_seat
+- create:brown_table_cloth
+- create:brown_toolbox
+- create:brown_valve_handle
+- create:builders_tea
+- create:calcite_pillar
+- create:cardboard
+- create:cardboard_block
+- create:cardboard_boots
+- create:cardboard_boots_amethyst_trim
+- create:cardboard_boots_copper_trim
+- create:cardboard_boots_diamond_trim
+- create:cardboard_boots_emerald_trim
+- create:cardboard_boots_gold_trim
+- create:cardboard_boots_iron_trim
+- create:cardboard_boots_lapis_trim
+- create:cardboard_boots_netherite_trim
+- create:cardboard_boots_quartz_trim
+- create:cardboard_boots_redstone_trim
+- create:cardboard_chestplate
+- create:cardboard_chestplate_amethyst_trim
+- create:cardboard_chestplate_copper_trim
+- create:cardboard_chestplate_diamond_trim
+- create:cardboard_chestplate_emerald_trim
+- create:cardboard_chestplate_gold_trim
+- create:cardboard_chestplate_iron_trim
+- create:cardboard_chestplate_lapis_trim
+- create:cardboard_chestplate_netherite_trim
+- create:cardboard_chestplate_quartz_trim
+- create:cardboard_chestplate_redstone_trim
+- create:cardboard_helmet
+- create:cardboard_helmet_amethyst_trim
+- create:cardboard_helmet_copper_trim
+- create:cardboard_helmet_diamond_trim
+- create:cardboard_helmet_emerald_trim
+- create:cardboard_helmet_gold_trim
+- create:cardboard_helmet_iron_trim
+- create:cardboard_helmet_lapis_trim
+- create:cardboard_helmet_netherite_trim
+- create:cardboard_helmet_quartz_trim
+- create:cardboard_helmet_redstone_trim
+- create:cardboard_leggings
+- create:cardboard_leggings_amethyst_trim
+- create:cardboard_leggings_copper_trim
+- create:cardboard_leggings_diamond_trim
+- create:cardboard_leggings_emerald_trim
+- create:cardboard_leggings_gold_trim
+- create:cardboard_leggings_iron_trim
+- create:cardboard_leggings_lapis_trim
+- create:cardboard_leggings_netherite_trim
+- create:cardboard_leggings_quartz_trim
+- create:cardboard_leggings_redstone_trim
+- create:cardboard_sword
+- create:chain_conveyor
+- create:cherry_window
+- create:cherry_window_pane
+- create:chest_minecart_contraption
+- create:chocolate
+- create:chocolate_bucket
+- create:chocolate_glazed_berries
+- create:chromatic_compound
+- create:chute
+- create:cinder_flour
+- create:clipboard
+- create:clipboard
+- create:clipboard_0
+- create:clipboard_1
+- create:clipboard_2
+- create:clockwork_bearing
+- create:clutch
+- create:cogwheel
+- create:content_observer
+- create:contraption_controls
+- create:controller_rail
+- create:controller_rail
+- create:controls
+- create:copper_backtank
+- create:copper_bars
+- create:copper_casing
+- create:copper_diving_boots
+- create:copper_diving_helmet
+- create:copper_door
+- create:copper_door
+- create:copper_ladder
+- create:copper_ladder
+- create:copper_nugget
+- create:copper_scaffolding
+- create:copper_sheet
+- create:copper_shingle_slab
+- create:copper_shingle_stairs
+- create:copper_shingles
+- create:copper_table_cloth
+- create:copper_tile_slab
+- create:copper_tile_stairs
+- create:copper_tiles
+- create:copper_valve_handle
+- create:copycat_base
+- create:crafter_slot_cover
+- create:crafting_blueprint
+- create:creative_blaze_cake
+- create:creative_crate
+- create:creative_fluid_tank
+- create:creative_motor
+- create:crimsite
+- create:crimsite_pillar
+- create:crimson_window
+- create:crimson_window_pane
+- create:crushed_raw_aluminum
+- create:crushed_raw_copper
+- create:crushed_raw_gold
+- create:crushed_raw_iron
+- create:crushed_raw_lead
+- create:crushed_raw_nickel
+- create:crushed_raw_osmium
+- create:crushed_raw_platinum
+- create:crushed_raw_quicksilver
+- create:crushed_raw_silver
+- create:crushed_raw_tin
+- create:crushed_raw_uranium
+- create:crushed_raw_zinc
+- create:cuckoo_clock
+- create:cut_andesite
+- create:cut_andesite_brick_slab
+- create:cut_andesite_brick_stairs
+- create:cut_andesite_bricks
+- create:cut_andesite_slab
+- create:cut_andesite_stairs
+- create:cut_asurine
+- create:cut_asurine_brick_slab
+- create:cut_asurine_brick_stairs
+- create:cut_asurine_bricks
+- create:cut_asurine_slab
+- create:cut_asurine_stairs
+- create:cut_calcite
+- create:cut_calcite_brick_slab
+- create:cut_calcite_brick_stairs
+- create:cut_calcite_bricks
+- create:cut_calcite_slab
+- create:cut_calcite_stairs
+- create:cut_crimsite
+- create:cut_crimsite_brick_slab
+- create:cut_crimsite_brick_stairs
+- create:cut_crimsite_bricks
+- create:cut_crimsite_slab
+- create:cut_crimsite_stairs
+- create:cut_deepslate
+- create:cut_deepslate_brick_slab
+- create:cut_deepslate_brick_stairs
+- create:cut_deepslate_bricks
+- create:cut_deepslate_slab
+- create:cut_deepslate_stairs
+- create:cut_diorite
+- create:cut_diorite_brick_slab
+- create:cut_diorite_brick_stairs
+- create:cut_diorite_bricks
+- create:cut_diorite_slab
+- create:cut_diorite_stairs
+- create:cut_dripstone
+- create:cut_dripstone_brick_slab
+- create:cut_dripstone_brick_stairs
+- create:cut_dripstone_bricks
+- create:cut_dripstone_slab
+- create:cut_dripstone_stairs
+- create:cut_granite
+- create:cut_granite_brick_slab
+- create:cut_granite_brick_stairs
+- create:cut_granite_bricks
+- create:cut_granite_slab
+- create:cut_granite_stairs
+- create:cut_limestone
+- create:cut_limestone_brick_slab
+- create:cut_limestone_brick_stairs
+- create:cut_limestone_bricks
+- create:cut_limestone_slab
+- create:cut_limestone_stairs
+- create:cut_ochrum
+- create:cut_ochrum_brick_slab
+- create:cut_ochrum_brick_stairs
+- create:cut_ochrum_bricks
+- create:cut_ochrum_slab
+- create:cut_ochrum_stairs
+- create:cut_scorchia
+- create:cut_scorchia_brick_slab
+- create:cut_scorchia_brick_stairs
+- create:cut_scorchia_bricks
+- create:cut_scorchia_slab
+- create:cut_scorchia_stairs
+- create:cut_scoria
+- create:cut_scoria_brick_slab
+- create:cut_scoria_brick_stairs
+- create:cut_scoria_bricks
+- create:cut_scoria_slab
+- create:cut_scoria_stairs
+- create:cut_tuff
+- create:cut_tuff_brick_slab
+- create:cut_tuff_brick_stairs
+- create:cut_tuff_bricks
+- create:cut_tuff_slab
+- create:cut_tuff_stairs
+- create:cut_veridium
+- create:cut_veridium_brick_slab
+- create:cut_veridium_brick_stairs
+- create:cut_veridium_bricks
+- create:cut_veridium_slab
+- create:cut_veridium_stairs
+- create:cyan_postbox
+- create:cyan_sail
+- create:cyan_seat
+- create:cyan_table_cloth
+- create:cyan_toolbox
+- create:cyan_valve_handle
+- create:dark_oak_window
+- create:dark_oak_window_pane
+- create:deepslate_pillar
+- create:deepslate_zinc_ore
+- create:deployer
+- create:depot
+- create:desk_bell
+- create:diorite_pillar
+- create:display_board
+- create:display_link
+- create:dough
+- create:dripstone_pillar
+- create:electron_tube
+- create:elevator_contact
+- create:elevator_pulley
+- create:empty_schematic
+- create:encased_chain_drive
+- create:encased_fan
+- create:experience_block
+- create:experience_nugget
+- create:exposed_copper_shingle_slab
+- create:exposed_copper_shingle_stairs
+- create:exposed_copper_shingles
+- create:exposed_copper_tile_slab
+- create:exposed_copper_tile_stairs
+- create:exposed_copper_tiles
+- create:extendo_grip
+- create:factory_gauge
+- create:filter
+- create:fluid_tank
+- create:fluid_valve
+- create:flywheel
+- create:framed_glass
+- create:framed_glass_door
+- create:framed_glass_door
+- create:framed_glass_pane
+- create:framed_glass_trapdoor
+- create:furnace_minecart_contraption
+- create:gantry_carriage
+- create:gantry_shaft
+- create:gearbox
+- create:gearshift
+- create:glass_fluid_pipe
+- create:goggles
+- create:golden_sheet
+- create:granite_pillar
+- create:gray_postbox
+- create:gray_sail
+- create:gray_seat
+- create:gray_table_cloth
+- create:gray_toolbox
+- create:gray_valve_handle
+- create:green_postbox
+- create:green_sail
+- create:green_seat
+- create:green_table_cloth
+- create:green_toolbox
+- create:green_valve_handle
+- create:hand_crank
+- create:honey
+- create:honey_bucket
+- create:honeyed_apple
+- create:horizontal_framed_glass
+- create:horizontal_framed_glass_pane
+- create:hose_pulley
+- create:incomplete_precision_mechanism
+- create:incomplete_track
+- create:industrial_iron_block
+- create:industrial_iron_window
+- create:industrial_iron_window_pane
+- create:iron_sheet
+- create:item_drain
+- create:item_hatch
+- create:item_vault
+- create:jungle_window
+- create:jungle_window_pane
+- create:large_bogey
+- create:large_cogwheel
+- create:layered_andesite
+- create:layered_asurine
+- create:layered_calcite
+- create:layered_crimsite
+- create:layered_deepslate
+- create:layered_diorite
+- create:layered_dripstone
+- create:layered_granite
+- create:layered_limestone
+- create:layered_ochrum
+- create:layered_scorchia
+- create:layered_scoria
+- create:layered_tuff
+- create:layered_veridium
+- create:light_blue_postbox
+- create:light_blue_sail
+- create:light_blue_seat
+- create:light_blue_table_cloth
+- create:light_blue_toolbox
+- create:light_blue_valve_handle
+- create:light_gray_postbox
+- create:light_gray_sail
+- create:light_gray_seat
+- create:light_gray_table_cloth
+- create:light_gray_toolbox
+- create:light_gray_valve_handle
+- create:lime_postbox
+- create:lime_sail
+- create:lime_seat
+- create:lime_table_cloth
+- create:lime_toolbox
+- create:lime_valve_handle
+- create:limestone
+- create:limestone_pillar
+- create:linear_chassis
+- create:linked_controller
+- create:lit_blaze_burner
+- create:magenta_postbox
+- create:magenta_sail
+- create:magenta_seat
+- create:magenta_table_cloth
+- create:magenta_toolbox
+- create:magenta_valve_handle
+- create:mangrove_window
+- create:mangrove_window_pane
+- create:mechanical_arm
+- create:mechanical_bearing
+- create:mechanical_crafter
+- create:mechanical_drill
+- create:mechanical_harvester
+- create:mechanical_piston
+- create:mechanical_press
+- create:mechanical_pump
+- create:mechanical_roller
+- create:mechanical_saw
+- create:metal_bracket
+- create:millstone
+- create:minecart_anchor
+- create:minecart_contraption
+- create:minecart_coupling
+- create:netherite_backtank
+- create:netherite_diving_boots
+- create:netherite_diving_helmet
+- create:nixie_tube
+- create:nozzle
+- create:oak_window
+- create:oak_window_pane
+- create:ochrum
+- create:ochrum_pillar
+- create:orange_postbox
+- create:orange_sail
+- create:orange_seat
+- create:orange_table_cloth
+- create:orange_toolbox
+- create:orange_valve_handle
+- create:ornate_iron_window
+- create:ornate_iron_window_pane
+- create:oxidized_copper_shingle_slab
+- create:oxidized_copper_shingle_stairs
+- create:oxidized_copper_shingles
+- create:oxidized_copper_tile_slab
+- create:oxidized_copper_tile_stairs
+- create:oxidized_copper_tiles
+- create:package_filter
+- create:package_frogport
+- create:packager
+- create:pink_postbox
+- create:pink_sail
+- create:pink_seat
+- create:pink_table_cloth
+- create:pink_toolbox
+- create:pink_valve_handle
+- create:placard
+- create:polished_cut_andesite
+- create:polished_cut_andesite_slab
+- create:polished_cut_andesite_stairs
+- create:polished_cut_asurine
+- create:polished_cut_asurine_slab
+- create:polished_cut_asurine_stairs
+- create:polished_cut_calcite
+- create:polished_cut_calcite_slab
+- create:polished_cut_calcite_stairs
+- create:polished_cut_crimsite
+- create:polished_cut_crimsite_slab
+- create:polished_cut_crimsite_stairs
+- create:polished_cut_deepslate
+- create:polished_cut_deepslate_slab
+- create:polished_cut_deepslate_stairs
+- create:polished_cut_diorite
+- create:polished_cut_diorite_slab
+- create:polished_cut_diorite_stairs
+- create:polished_cut_dripstone
+- create:polished_cut_dripstone_slab
+- create:polished_cut_dripstone_stairs
+- create:polished_cut_granite
+- create:polished_cut_granite_slab
+- create:polished_cut_granite_stairs
+- create:polished_cut_limestone
+- create:polished_cut_limestone_slab
+- create:polished_cut_limestone_stairs
+- create:polished_cut_ochrum
+- create:polished_cut_ochrum_slab
+- create:polished_cut_ochrum_stairs
+- create:polished_cut_scorchia
+- create:polished_cut_scorchia_slab
+- create:polished_cut_scorchia_stairs
+- create:polished_cut_scoria
+- create:polished_cut_scoria_slab
+- create:polished_cut_scoria_stairs
+- create:polished_cut_tuff
+- create:polished_cut_tuff_slab
+- create:polished_cut_tuff_stairs
+- create:polished_cut_veridium
+- create:polished_cut_veridium_slab
+- create:polished_cut_veridium_stairs
+- create:polished_rose_quartz
+- create:portable_fluid_interface
+- create:portable_storage_interface
+- create:potato_cannon
+- create:powdered_obsidian
+- create:powered_latch
+- create:powered_shaft
+- create:powered_toggle_latch
+- create:precision_mechanism
+- create:propeller
+- create:pulley_magnet
+- create:pulp
+- create:pulse_extender
+- create:pulse_repeater
+- create:pulse_timer
+- create:purple_postbox
+- create:purple_sail
+- create:purple_seat
+- create:purple_table_cloth
+- create:purple_toolbox
+- create:purple_valve_handle
+- create:railway_casing
+- create:rare_creeper_package
+- create:rare_darcy_package
+- create:rare_evan_package
+- create:rare_jinx_package
+- create:rare_kryppers_package
+- create:rare_simi_package
+- create:rare_starlotte_package
+- create:rare_thunder_package
+- create:rare_up_package
+- create:rare_vector_package
+- create:raw_zinc
+- create:raw_zinc_block
+- create:red_postbox
+- create:red_sail
+- create:red_sand_paper
+- create:red_seat
+- create:red_table_cloth
+- create:red_toolbox
+- create:red_valve_handle
+- create:redstone_contact
+- create:redstone_link
+- create:redstone_requester
+- create:refined_radiance
+- create:refined_radiance_casing
+- create:repackager
+- create:rope
+- create:rope_pulley
+- create:rose_quartz
+- create:rose_quartz_block
+- create:rose_quartz_lamp
+- create:rose_quartz_tiles
+- create:rotation_speed_controller
+- create:sail_frame
+- create:sand_paper
+- create:schedule
+- create:schematic
+- create:schematic_and_quill
+- create:schematic_table
+- create:schematicannon
+- create:scorchia
+- create:scorchia_pillar
+- create:scoria
+- create:scoria_pillar
+- create:secondary_linear_chassis
+- create:sequenced_gearshift
+- create:shadow_steel
+- create:shadow_steel_casing
+- create:shaft
+- create:shopping_list
+- create:small_andesite_brick_slab
+- create:small_andesite_brick_stairs
+- create:small_andesite_bricks
+- create:small_asurine_brick_slab
+- create:small_asurine_brick_stairs
+- create:small_asurine_bricks
+- create:small_bogey
+- create:small_calcite_brick_slab
+- create:small_calcite_brick_stairs
+- create:small_calcite_bricks
+- create:small_crimsite_brick_slab
+- create:small_crimsite_brick_stairs
+- create:small_crimsite_bricks
+- create:small_deepslate_brick_slab
+- create:small_deepslate_brick_stairs
+- create:small_deepslate_bricks
+- create:small_diorite_brick_slab
+- create:small_diorite_brick_stairs
+- create:small_diorite_bricks
+- create:small_dripstone_brick_slab
+- create:small_dripstone_brick_stairs
+- create:small_dripstone_bricks
+- create:small_granite_brick_slab
+- create:small_granite_brick_stairs
+- create:small_granite_bricks
+- create:small_limestone_brick_slab
+- create:small_limestone_brick_stairs
+- create:small_limestone_bricks
+- create:small_ochrum_brick_slab
+- create:small_ochrum_brick_stairs
+- create:small_ochrum_bricks
+- create:small_rose_quartz_tiles
+- create:small_scorchia_brick_slab
+- create:small_scorchia_brick_stairs
+- create:small_scorchia_bricks
+- create:small_scoria_brick_slab
+- create:small_scoria_brick_stairs
+- create:small_scoria_bricks
+- create:small_tuff_brick_slab
+- create:small_tuff_brick_stairs
+- create:small_tuff_bricks
+- create:small_veridium_brick_slab
+- create:small_veridium_brick_stairs
+- create:small_veridium_bricks
+- create:smart_chute
+- create:smart_fluid_pipe
+- create:speedometer
+- create:spout
+- create:spruce_window
+- create:spruce_window_pane
+- create:steam_engine
+- create:steam_whistle
+- create:sticker
+- create:sticky_mechanical_piston
+- create:stock_link
+- create:stock_ticker
+- create:stockpile_switch
+- create:stressometer
+- create:sturdy_sheet
+- create:super_glue
+- create:sweet_roll
+- create:tiled_glass
+- create:tiled_glass_pane
+- create:track
+- create:track
+- create:track_observer
+- create:track_signal
+- create:track_station
+- create:train_door
+- create:train_door
+- create:train_trapdoor
+- create:transmitter
+- create:tree_fertilizer
+- create:tuff_pillar
+- create:turntable
+- create:unprocessed_obsidian_sheet
+- create:veridium
+- create:veridium_pillar
+- create:vertical_framed_glass
+- create:vertical_framed_glass_pane
+- create:warped_window
+- create:warped_window_pane
+- create:water_wheel
+- create:waxed_copper_shingle_slab
+- create:waxed_copper_shingle_stairs
+- create:waxed_copper_shingles
+- create:waxed_copper_tile_slab
+- create:waxed_copper_tile_stairs
+- create:waxed_copper_tiles
+- create:waxed_exposed_copper_shingle_slab
+- create:waxed_exposed_copper_shingle_stairs
+- create:waxed_exposed_copper_shingles
+- create:waxed_exposed_copper_tile_slab
+- create:waxed_exposed_copper_tile_stairs
+- create:waxed_exposed_copper_tiles
+- create:waxed_oxidized_copper_shingle_slab
+- create:waxed_oxidized_copper_shingle_stairs
+- create:waxed_oxidized_copper_shingles
+- create:waxed_oxidized_copper_tile_slab
+- create:waxed_oxidized_copper_tile_stairs
+- create:waxed_oxidized_copper_tiles
+- create:waxed_weathered_copper_shingle_slab
+- create:waxed_weathered_copper_shingle_stairs
+- create:waxed_weathered_copper_shingles
+- create:waxed_weathered_copper_tile_slab
+- create:waxed_weathered_copper_tile_stairs
+- create:waxed_weathered_copper_tiles
+- create:weathered_copper_shingle_slab
+- create:weathered_copper_shingle_stairs
+- create:weathered_copper_shingles
+- create:weathered_copper_tile_slab
+- create:weathered_copper_tile_stairs
+- create:weathered_copper_tiles
+- create:weathered_iron_block
+- create:weathered_iron_window
+- create:weathered_iron_window_pane
+- create:weighted_ejector
+- create:wheat_flour
+- create:whisk
+- create:white_postbox
+- create:white_sail
+- create:white_seat
+- create:white_table_cloth
+- create:white_toolbox
+- create:white_valve_handle
+- create:windmill_bearing
+- create:wooden_bracket
+- create:wrench
+- create:yellow_postbox
+- create:yellow_sail
+- create:yellow_seat
+- create:yellow_table_cloth
+- create:yellow_toolbox
+- create:yellow_valve_handle
+- create:zinc_block
+- create:zinc_ingot
+- create:zinc_nugget
+- create:zinc_ore
+
+## Still needs a human (2082 TODOs)
+
+- **dependency:** needs flywheel (required, [1.0.0,2.0)) — a Bedrock addon cannot depend on another Java mod; bundle what it provides, or drop the feature that needs it
+- **dependency:** needs ponder (required, [1.0.82,)) — a Bedrock addon cannot depend on another Java mod; bundle what it provides, or drop the feature that needs it
+- **dependency:** needs sodium (optional, [0.6.9,)) — a Bedrock addon cannot depend on another Java mod; bundle what it provides, or drop the feature that needs it
+- **dependency:** needs lithium (optional, [0.14.7,)) — a Bedrock addon cannot depend on another Java mod; bundle what it provides, or drop the feature that needs it
+- **dependency:** needs journeymap (optional, [1.21.1-6.0.0-beta.46,)) — a Bedrock addon cannot depend on another Java mod; bundle what it provides, or drop the feature that needs it
+- **dependency:** needs xaeroworldmap (optional, [1.40.2,)) — a Bedrock addon cannot depend on another Java mod; bundle what it provides, or drop the feature that needs it
+- **dependency:** needs radium (incompatible, any version) — a Bedrock addon cannot depend on another Java mod; bundle what it provides, or drop the feature that needs it
+- **dependency:** needs palladium (incompatible, any version) — a Bedrock addon cannot depend on another Java mod; bundle what it provides, or drop the feature that needs it
+- **mixin:** create.mixins.json rewrites Minecraft's code at load time; there is no Bedrock equivalent — rebuild the feature by hand
+- **java code:** AllAttachmentTypes.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllBlockEntityTypes.class: entity (AI, health, movement) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllBlockSpoutingBehaviours.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllBlocks.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllBogeyStyles.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllContraptionMovementSettings.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllContraptionTypes.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllCreativeModeTabs$RegistrateDisplayItemsGenerator$ItemOrdering$Type.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllCreativeModeTabs$RegistrateDisplayItemsGenerator$ItemOrdering.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllCreativeModeTabs$RegistrateDisplayItemsGenerator.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllCreativeModeTabs.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllDamageTypes.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllDataComponents.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllDisplaySources.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllDisplayTargets.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllEnchantments.class: enchantment — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllEntityDataSerializers.class: entity (AI, health, movement) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllEntityTypes.class: entity (AI, health, movement) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllFluids$1.class: custom fluid — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllFluids$SolidRenderedPlaceableFluidType.class: custom fluid — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllFluids$TintedFluidType$1.class: custom fluid — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllFluids$TintedFluidType.class: custom fluid — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllFluids.class: custom fluid — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllInteractionBehaviours.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** AllItems.class: java code (class file) — rewrite as Bedrock JSON/scripts by hand, or drop it
+- **java code:** ...and 175 more code files (200 counted; the scan stops at 200) — see the jar for the full list
+- **data/advancement:** 1173 file(s) under data/create/advancement have no Bedrock equivalent; rebuild by hand
+- **data/damage_type:** 9 file(s) under data/create/damage_type have no Bedrock equivalent; rebuild by hand
+- **data/enchantment:** 2 file(s) under data/create/enchantment have no Bedrock equivalent; rebuild by hand
+- **data/loot_table:** 641 file(s) under data/create/loot_table have no Bedrock equivalent; rebuild by hand
+- **data/structure:** 74 file(s) under data/create/structure have no Bedrock equivalent; rebuild by hand
+- **data/tags:** 93 file(s) under data/create/tags have no Bedrock equivalent; rebuild by hand
+- **data/worldgen:** 8 file(s) under data/create/worldgen have no Bedrock equivalent; rebuild by hand
+- **missing texture:** block create:acacia_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:adjustable_chain_gearshift has 48 variants; only the first was converted
+- **blockstate variants:** block create:analog_lever has 12 variants; only the first was converted
+- **missing texture:** block create:andesite_bars: no texture found; the block will be invisible
+- **blockstate variants:** block create:andesite_belt_funnel has 64 variants; only the first was converted
+- **blockstate variants:** block create:andesite_door has 64 variants; only the first was converted
+- **blockstate variants:** block create:andesite_encased_cogwheel has 12 variants; only the first was converted
+- **blockstate variants:** block create:andesite_encased_large_cogwheel has 12 variants; only the first was converted
+- **blockstate variants:** block create:andesite_encased_shaft has 3 variants; only the first was converted
+- **blockstate variants:** block create:andesite_funnel has 48 variants; only the first was converted
+- **blockstate variants:** block create:andesite_ladder has 8 variants; only the first was converted
+- **blockstate variants:** block create:andesite_pillar has 3 variants; only the first was converted
+- **blockstate variants:** block create:andesite_scaffolding has 2 variants; only the first was converted
+- **blockstate variants:** block create:andesite_tunnel has 12 variants; only the first was converted
+- **blockstate variants:** block create:asurine_pillar has 3 variants; only the first was converted
+- **missing texture:** block create:bamboo_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:basin has 5 variants; only the first was converted
+- **blockstate variants:** block create:belt has 320 variants; only the first was converted
+- **missing texture:** block create:birch_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:black_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:black_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:black_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:black_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:black_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:black_valve_handle has 12 variants; only the first was converted
+- **blockstate variants:** block create:blue_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:blue_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:blue_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:blue_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:blue_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:blue_valve_handle has 12 variants; only the first was converted
+- **blockstate variants:** block create:bound_cardboard_block has 2 variants; only the first was converted
+- **missing texture:** block create:brass_bars: no texture found; the block will be invisible
+- **blockstate variants:** block create:brass_belt_funnel has 64 variants; only the first was converted
+- **blockstate variants:** block create:brass_door has 64 variants; only the first was converted
+- **blockstate variants:** block create:brass_encased_cogwheel has 12 variants; only the first was converted
+- **blockstate variants:** block create:brass_encased_large_cogwheel has 12 variants; only the first was converted
+- **blockstate variants:** block create:brass_encased_shaft has 3 variants; only the first was converted
+- **blockstate variants:** block create:brass_funnel has 48 variants; only the first was converted
+- **blockstate variants:** block create:brass_ladder has 8 variants; only the first was converted
+- **blockstate variants:** block create:brass_scaffolding has 2 variants; only the first was converted
+- **blockstate variants:** block create:brass_tunnel has 12 variants; only the first was converted
+- **blockstate variants:** block create:brown_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:brown_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:brown_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:brown_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:brown_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:brown_valve_handle has 12 variants; only the first was converted
+- **blockstate variants:** block create:calcite_pillar has 3 variants; only the first was converted
+- **blockstate variants:** block create:cardboard_block has 2 variants; only the first was converted
+- **blockstate variants:** block create:cart_assembler has 80 variants; only the first was converted
+- **missing texture:** block create:cart_assembler: no texture found; the block will be invisible
+- **missing texture:** block create:cherry_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:chute has 40 variants; only the first was converted
+- **blockstate variants:** block create:clipboard has 48 variants; only the first was converted
+- **blockstate variants:** block create:clockwork_bearing has 6 variants; only the first was converted
+- **blockstate variants:** block create:clutch has 6 variants; only the first was converted
+- **blockstate variants:** block create:cogwheel has 3 variants; only the first was converted
+- **blockstate variants:** block create:content_observer has 24 variants; only the first was converted
+- **blockstate variants:** block create:contraption_controls has 32 variants; only the first was converted
+- **blockstate variants:** block create:controller_rail has 24 variants; only the first was converted
+- **blockstate variants:** block create:controls has 32 variants; only the first was converted
+- **blockstate variants:** block create:copper_backtank has 8 variants; only the first was converted
+- **missing texture:** block create:copper_bars: no texture found; the block will be invisible
+- **blockstate variants:** block create:copper_door has 64 variants; only the first was converted
+- **blockstate variants:** block create:copper_ladder has 8 variants; only the first was converted
+- **blockstate variants:** block create:copper_scaffolding has 2 variants; only the first was converted
+- **blockstate variants:** block create:copper_shingle_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:copper_shingle_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:copper_tile_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:copper_tile_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:copper_valve_handle has 12 variants; only the first was converted
+- **blockstate variants:** block create:copycat_bars has 6 variants; only the first was converted
+- **missing texture:** block create:copycat_bars: no texture found; the block will be invisible
+- **missing texture:** block create:copycat_panel: no texture found; the block will be invisible
+- **missing texture:** block create:copycat_step: no texture found; the block will be invisible
+- **blockstate variants:** block create:creative_crate has 6 variants; only the first was converted
+- **blockstate variants:** block create:creative_fluid_tank has 24 variants; only the first was converted
+- **blockstate variants:** block create:creative_motor has 6 variants; only the first was converted
+- **blockstate variants:** block create:crimsite_pillar has 3 variants; only the first was converted
+- **missing texture:** block create:crimson_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:crushing_wheel has 3 variants; only the first was converted
+- **missing texture:** block create:crushing_wheel: no texture found; the block will be invisible
+- **blockstate variants:** block create:crushing_wheel_controller has 2 variants; only the first was converted
+- **missing texture:** block create:crushing_wheel_controller: no texture found; the block will be invisible
+- **blockstate variants:** block create:cuckoo_clock has 4 variants; only the first was converted
+- **blockstate variants:** block create:cut_andesite_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_andesite_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_andesite_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_andesite_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_andesite_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_andesite_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_asurine_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_asurine_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_asurine_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_asurine_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_asurine_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_asurine_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_calcite_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_calcite_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_calcite_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_calcite_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_calcite_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_calcite_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_crimsite_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_crimsite_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_crimsite_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_crimsite_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_crimsite_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_crimsite_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_deepslate_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_deepslate_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_deepslate_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_deepslate_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_deepslate_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_deepslate_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_diorite_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_diorite_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_diorite_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_diorite_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_diorite_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_diorite_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_dripstone_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_dripstone_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_dripstone_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_dripstone_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_dripstone_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_dripstone_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_granite_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_granite_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_granite_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_granite_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_granite_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_granite_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_limestone_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_limestone_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_limestone_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_limestone_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_limestone_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_limestone_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_ochrum_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_ochrum_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_ochrum_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_ochrum_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_ochrum_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_ochrum_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_scorchia_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_scorchia_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_scorchia_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_scorchia_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_scorchia_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_scorchia_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_scoria_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_scoria_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_scoria_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_scoria_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_scoria_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_scoria_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_tuff_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_tuff_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_tuff_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_tuff_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_tuff_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_tuff_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_veridium_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_veridium_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_veridium_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cut_veridium_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:cut_veridium_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:cut_veridium_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:cyan_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:cyan_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:cyan_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:cyan_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:cyan_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:cyan_valve_handle has 12 variants; only the first was converted
+- **missing texture:** block create:dark_oak_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:deepslate_pillar has 3 variants; only the first was converted
+- **blockstate variants:** block create:deployer has 12 variants; only the first was converted
+- **blockstate variants:** block create:desk_bell has 24 variants; only the first was converted
+- **blockstate variants:** block create:diorite_pillar has 3 variants; only the first was converted
+- **blockstate variants:** block create:display_board has 32 variants; only the first was converted
+- **blockstate variants:** block create:display_link has 12 variants; only the first was converted
+- **blockstate variants:** block create:dripstone_pillar has 3 variants; only the first was converted
+- **blockstate variants:** block create:elevator_contact has 48 variants; only the first was converted
+- **blockstate variants:** block create:elevator_pulley has 4 variants; only the first was converted
+- **blockstate variants:** block create:encased_chain_drive has 24 variants; only the first was converted
+- **blockstate variants:** block create:encased_fan has 6 variants; only the first was converted
+- **missing texture:** block create:encased_fluid_pipe: no texture found; the block will be invisible
+- **blockstate variants:** block create:exposed_copper_shingle_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:exposed_copper_shingle_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:exposed_copper_tile_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:exposed_copper_tile_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:factory_gauge has 48 variants; only the first was converted
+- **missing texture:** block create:fake_track: no texture found; the block will be invisible
+- **missing texture:** block create:fluid_pipe: no texture found; the block will be invisible
+- **blockstate variants:** block create:fluid_tank has 24 variants; only the first was converted
+- **blockstate variants:** block create:fluid_valve has 48 variants; only the first was converted
+- **blockstate variants:** block create:flywheel has 3 variants; only the first was converted
+- **blockstate variants:** block create:framed_glass_door has 64 variants; only the first was converted
+- **missing texture:** block create:framed_glass_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:framed_glass_trapdoor has 16 variants; only the first was converted
+- **blockstate variants:** block create:gantry_carriage has 12 variants; only the first was converted
+- **blockstate variants:** block create:gantry_shaft has 48 variants; only the first was converted
+- **blockstate variants:** block create:gearbox has 3 variants; only the first was converted
+- **blockstate variants:** block create:gearshift has 6 variants; only the first was converted
+- **blockstate variants:** block create:glass_fluid_pipe has 6 variants; only the first was converted
+- **blockstate variants:** block create:granite_pillar has 3 variants; only the first was converted
+- **blockstate variants:** block create:gray_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:gray_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:gray_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:gray_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:gray_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:gray_valve_handle has 12 variants; only the first was converted
+- **blockstate variants:** block create:green_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:green_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:green_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:green_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:green_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:green_valve_handle has 12 variants; only the first was converted
+- **blockstate variants:** block create:hand_crank has 12 variants; only the first was converted
+- **blockstate variants:** block create:haunted_bell has 32 variants; only the first was converted
+- **missing texture:** block create:haunted_bell: no texture found; the block will be invisible
+- **missing texture:** block create:horizontal_framed_glass_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:hose_pulley has 4 variants; only the first was converted
+- **missing texture:** block create:industrial_iron_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:item_hatch has 16 variants; only the first was converted
+- **blockstate variants:** block create:item_vault has 4 variants; only the first was converted
+- **missing texture:** block create:jungle_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:large_bogey has 4 variants; only the first was converted
+- **blockstate variants:** block create:large_cogwheel has 3 variants; only the first was converted
+- **blockstate variants:** block create:large_water_wheel has 6 variants; only the first was converted
+- **missing texture:** block create:large_water_wheel: no texture found; the block will be invisible
+- **blockstate variants:** block create:lectern_controller has 16 variants; only the first was converted
+- **missing texture:** block create:lectern_controller: no texture found; the block will be invisible
+- **blockstate variants:** block create:light_blue_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:light_blue_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:light_blue_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:light_blue_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:light_blue_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:light_blue_valve_handle has 12 variants; only the first was converted
+- **blockstate variants:** block create:light_gray_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:light_gray_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:light_gray_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:light_gray_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:light_gray_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:light_gray_valve_handle has 12 variants; only the first was converted
+- **blockstate variants:** block create:lime_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:lime_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:lime_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:lime_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:lime_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:lime_valve_handle has 12 variants; only the first was converted
+- **blockstate variants:** block create:limestone_pillar has 3 variants; only the first was converted
+- **blockstate variants:** block create:linear_chassis has 12 variants; only the first was converted
+- **blockstate variants:** block create:lit_blaze_burner has 2 variants; only the first was converted
+- **blockstate variants:** block create:magenta_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:magenta_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:magenta_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:magenta_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:magenta_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:magenta_valve_handle has 12 variants; only the first was converted
+- **missing texture:** block create:mangrove_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:mechanical_arm has 2 variants; only the first was converted
+- **blockstate variants:** block create:mechanical_bearing has 6 variants; only the first was converted
+- **blockstate variants:** block create:mechanical_crafter has 16 variants; only the first was converted
+- **blockstate variants:** block create:mechanical_drill has 12 variants; only the first was converted
+- **blockstate variants:** block create:mechanical_harvester has 8 variants; only the first was converted
+- **missing texture:** block create:mechanical_mixer: no texture found; the block will be invisible
+- **blockstate variants:** block create:mechanical_piston has 36 variants; only the first was converted
+- **blockstate variants:** block create:mechanical_piston_head has 12 variants; only the first was converted
+- **missing texture:** block create:mechanical_piston_head: no texture found; the block will be invisible
+- **blockstate variants:** block create:mechanical_plough has 8 variants; only the first was converted
+- **missing texture:** block create:mechanical_plough: no texture found; the block will be invisible
+- **blockstate variants:** block create:mechanical_press has 4 variants; only the first was converted
+- **blockstate variants:** block create:mechanical_pump has 6 variants; only the first was converted
+- **blockstate variants:** block create:mechanical_roller has 8 variants; only the first was converted
+- **blockstate variants:** block create:mechanical_saw has 24 variants; only the first was converted
+- **blockstate variants:** block create:metal_bracket has 36 variants; only the first was converted
+- **missing texture:** block create:metal_girder: no texture found; the block will be invisible
+- **missing texture:** block create:metal_girder_encased_shaft: no texture found; the block will be invisible
+- **blockstate variants:** block create:mysterious_cuckoo_clock has 4 variants; only the first was converted
+- **missing texture:** block create:mysterious_cuckoo_clock: no texture found; the block will be invisible
+- **blockstate variants:** block create:netherite_backtank has 8 variants; only the first was converted
+- **blockstate variants:** block create:nixie_tube has 32 variants; only the first was converted
+- **blockstate variants:** block create:nozzle has 6 variants; only the first was converted
+- **missing texture:** block create:oak_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:ochrum_pillar has 3 variants; only the first was converted
+- **blockstate variants:** block create:orange_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:orange_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:orange_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:orange_valve_handle has 12 variants; only the first was converted
+- **missing texture:** block create:ornate_iron_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:oxidized_copper_shingle_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:oxidized_copper_shingle_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:oxidized_copper_tile_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:oxidized_copper_tile_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:packager has 24 variants; only the first was converted
+- **blockstate variants:** block create:peculiar_bell has 32 variants; only the first was converted
+- **missing texture:** block create:peculiar_bell: no texture found; the block will be invisible
+- **blockstate variants:** block create:pink_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:pink_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:pink_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:pink_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:pink_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:pink_valve_handle has 12 variants; only the first was converted
+- **blockstate variants:** block create:piston_extension_pole has 6 variants; only the first was converted
+- **missing texture:** block create:piston_extension_pole: no texture found; the block will be invisible
+- **blockstate variants:** block create:placard has 48 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_andesite_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_andesite_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_andesite_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:polished_cut_asurine_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_asurine_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_asurine_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:polished_cut_calcite_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_calcite_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_calcite_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:polished_cut_crimsite_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_crimsite_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_crimsite_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:polished_cut_deepslate_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_deepslate_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_deepslate_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:polished_cut_diorite_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_diorite_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_diorite_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:polished_cut_dripstone_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_dripstone_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_dripstone_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:polished_cut_granite_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_granite_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_granite_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:polished_cut_limestone_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_limestone_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_limestone_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:polished_cut_ochrum_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_ochrum_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_ochrum_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:polished_cut_scorchia_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_scorchia_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_scorchia_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:polished_cut_scoria_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_scoria_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_scoria_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:polished_cut_tuff_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_tuff_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_tuff_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:polished_cut_veridium_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:polished_cut_veridium_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:polished_cut_veridium_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:portable_fluid_interface has 6 variants; only the first was converted
+- **blockstate variants:** block create:portable_storage_interface has 6 variants; only the first was converted
+- **blockstate variants:** block create:powered_latch has 32 variants; only the first was converted
+- **blockstate variants:** block create:powered_shaft has 3 variants; only the first was converted
+- **blockstate variants:** block create:powered_toggle_latch has 16 variants; only the first was converted
+- **blockstate variants:** block create:pulse_extender has 32 variants; only the first was converted
+- **blockstate variants:** block create:pulse_repeater has 32 variants; only the first was converted
+- **blockstate variants:** block create:pulse_timer has 32 variants; only the first was converted
+- **blockstate variants:** block create:purple_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:purple_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:purple_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:purple_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:purple_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:purple_valve_handle has 12 variants; only the first was converted
+- **missing texture:** block create:radial_chassis: no texture found; the block will be invisible
+- **blockstate variants:** block create:red_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:red_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:red_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:red_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:red_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:red_valve_handle has 12 variants; only the first was converted
+- **blockstate variants:** block create:redstone_contact has 12 variants; only the first was converted
+- **blockstate variants:** block create:redstone_link has 24 variants; only the first was converted
+- **blockstate variants:** block create:redstone_requester has 4 variants; only the first was converted
+- **blockstate variants:** block create:repackager has 12 variants; only the first was converted
+- **blockstate variants:** block create:rope_pulley has 2 variants; only the first was converted
+- **blockstate variants:** block create:rose_quartz_block has 3 variants; only the first was converted
+- **blockstate variants:** block create:rose_quartz_lamp has 8 variants; only the first was converted
+- **blockstate variants:** block create:rotation_speed_controller has 2 variants; only the first was converted
+- **blockstate variants:** block create:sail_frame has 6 variants; only the first was converted
+- **blockstate variants:** block create:schematic_table has 4 variants; only the first was converted
+- **blockstate variants:** block create:scorchia_pillar has 3 variants; only the first was converted
+- **blockstate variants:** block create:scoria_pillar has 3 variants; only the first was converted
+- **blockstate variants:** block create:secondary_linear_chassis has 12 variants; only the first was converted
+- **blockstate variants:** block create:sequenced_gearshift has 24 variants; only the first was converted
+- **blockstate variants:** block create:shaft has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_andesite_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_andesite_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_andesite_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:small_asurine_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_asurine_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_asurine_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:small_bogey has 4 variants; only the first was converted
+- **blockstate variants:** block create:small_calcite_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_calcite_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_calcite_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:small_crimsite_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_crimsite_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_crimsite_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:small_deepslate_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_deepslate_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_deepslate_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:small_diorite_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_diorite_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_diorite_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:small_dripstone_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_dripstone_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_dripstone_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:small_granite_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_granite_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_granite_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:small_limestone_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_limestone_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_limestone_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:small_ochrum_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_ochrum_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_ochrum_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:small_scorchia_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_scorchia_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_scorchia_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:small_scoria_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_scoria_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_scoria_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:small_tuff_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_tuff_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_tuff_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:small_veridium_brick_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:small_veridium_brick_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:small_veridium_brick_wall: no texture found; the block will be invisible
+- **blockstate variants:** block create:smart_chute has 2 variants; only the first was converted
+- **blockstate variants:** block create:smart_fluid_pipe has 24 variants; only the first was converted
+- **blockstate variants:** block create:speedometer has 12 variants; only the first was converted
+- **missing texture:** block create:spruce_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:steam_engine has 24 variants; only the first was converted
+- **blockstate variants:** block create:steam_whistle has 48 variants; only the first was converted
+- **missing texture:** block create:steam_whistle_extension: no texture found; the block will be invisible
+- **blockstate variants:** block create:sticker has 24 variants; only the first was converted
+- **blockstate variants:** block create:sticky_mechanical_piston has 36 variants; only the first was converted
+- **blockstate variants:** block create:stock_link has 48 variants; only the first was converted
+- **blockstate variants:** block create:stock_ticker has 4 variants; only the first was converted
+- **blockstate variants:** block create:stockpile_switch has 72 variants; only the first was converted
+- **blockstate variants:** block create:stressometer has 12 variants; only the first was converted
+- **missing texture:** block create:tiled_glass_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:track has 76 variants; only the first was converted
+- **blockstate variants:** block create:track_observer has 2 variants; only the first was converted
+- **blockstate variants:** block create:track_signal has 4 variants; only the first was converted
+- **blockstate variants:** block create:train_door has 64 variants; only the first was converted
+- **blockstate variants:** block create:train_trapdoor has 16 variants; only the first was converted
+- **blockstate variants:** block create:tuff_pillar has 3 variants; only the first was converted
+- **blockstate variants:** block create:veridium_pillar has 3 variants; only the first was converted
+- **missing texture:** block create:vertical_framed_glass_pane: no texture found; the block will be invisible
+- **missing texture:** block create:warped_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:water_wheel has 6 variants; only the first was converted
+- **missing texture:** block create:water_wheel_structure: no texture found; the block will be invisible
+- **blockstate variants:** block create:waxed_copper_shingle_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:waxed_copper_shingle_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:waxed_copper_tile_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:waxed_copper_tile_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:waxed_exposed_copper_shingle_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:waxed_exposed_copper_shingle_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:waxed_exposed_copper_tile_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:waxed_exposed_copper_tile_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:waxed_oxidized_copper_shingle_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:waxed_oxidized_copper_shingle_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:waxed_oxidized_copper_tile_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:waxed_oxidized_copper_tile_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:waxed_weathered_copper_shingle_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:waxed_weathered_copper_shingle_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:waxed_weathered_copper_tile_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:waxed_weathered_copper_tile_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:weathered_copper_shingle_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:weathered_copper_shingle_stairs has 40 variants; only the first was converted
+- **blockstate variants:** block create:weathered_copper_tile_slab has 3 variants; only the first was converted
+- **blockstate variants:** block create:weathered_copper_tile_stairs has 40 variants; only the first was converted
+- **missing texture:** block create:weathered_iron_window_pane: no texture found; the block will be invisible
+- **blockstate variants:** block create:weighted_ejector has 8 variants; only the first was converted
+- **blockstate variants:** block create:white_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:white_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:white_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:white_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:white_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:white_valve_handle has 12 variants; only the first was converted
+- **blockstate variants:** block create:windmill_bearing has 6 variants; only the first was converted
+- **blockstate variants:** block create:wooden_bracket has 36 variants; only the first was converted
+- **blockstate variants:** block create:yellow_nixie_tube has 32 variants; only the first was converted
+- **missing texture:** block create:yellow_nixie_tube: no texture found; the block will be invisible
+- **blockstate variants:** block create:yellow_postbox has 16 variants; only the first was converted
+- **blockstate variants:** block create:yellow_sail has 6 variants; only the first was converted
+- **blockstate variants:** block create:yellow_toolbox has 8 variants; only the first was converted
+- **blockstate variants:** block create:yellow_valve_handle has 12 variants; only the first was converted
+- **missing texture:** item create:cardboard_package_10x12: no texture found
+- **missing texture:** item create:cardboard_package_10x8: no texture found
+- **missing texture:** item create:cardboard_package_12x10: no texture found
+- **missing texture:** item create:cardboard_package_12x12: no texture found
+- **missing texture:** item create:copper_backtank_placeable: no texture found
+- **missing texture:** item create:handheld_worldshaper: no texture found
+- **missing texture:** item create:netherite_backtank_placeable: no texture found
+- **missing texture:** item create:wand_of_symmetry: no texture found
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe type:** 'andesite_bars_from_andesite_alloy_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'andesite_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'andesite_ladder_from_andesite_alloy_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'andesite_pillar_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'andesite_scaffolding_from_andesite_alloy_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'andesite_table_cloth_from_andesite_alloy_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'asurine_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'asurine_pillar_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ores/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:raw_materials/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe type:** 'brass_bars_from_ingots_brass_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'brass_ladder_from_ingots_brass_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'brass_scaffolding_from_ingots_brass_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'brass_table_cloth_from_ingots_brass_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'calcite_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'calcite_pillar_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe result:** create:compacting_andesite_from_flint has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:compacting_blaze_cake has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:compacting_chocolate has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:compacting_diorite_from_flint has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:compacting_granite_from_flint has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:compacting_honey has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:compacting_ice has no readable result item; the recipe needs hand-editing
+- **recipe type:** 'copper_bars_from_ingots_copper_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'copper_ladder_from_ingots_copper_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'copper_scaffolding_from_ingots_copper_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'copper_shingle_slab_from_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'copper_shingle_stairs_from_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'copper_shingles_from_ingots_copper_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'copper_table_cloth_from_ingots_copper_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'copper_tile_slab_from_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'copper_tile_stairs_from_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'copper_tiles_from_ingots_copper_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'copycat_panel_from_ingots_zinc_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'copycat_step_from_ingots_zinc_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe tag:** ingredient tag 'c:rods/wooden' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:planks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:storage_blocks/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:glass_blocks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:flours/wheat' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:rods/wooden' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_buttons' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/black' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:strings' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe type:** 'crafting_appliances_netherite_backtank' uses 'minecraft:smithing_transform', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'crafting_appliances_netherite_backtank_from_netherite' uses 'minecraft:smithing_transform', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'crafting_appliances_netherite_diving_boots' uses 'minecraft:smithing_transform', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'crafting_appliances_netherite_diving_boots_from_netherite' uses 'minecraft:smithing_transform', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'crafting_appliances_netherite_diving_helmet' uses 'minecraft:smithing_transform', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'crafting_appliances_netherite_diving_helmet_from_netherite' uses 'minecraft:smithing_transform', which Bedrock addons cannot express; recreate it by hand
+- **recipe tag:** ingredient tag 'c:dyes/lime' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:small_flowers' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:small_flowers' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:leathers' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/gold' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:chests/wooden' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:eggs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:foods/dough' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe result:** create:crafting_curiosities_item_copying has no readable result item; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:storage_blocks/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe result:** create:crafting_curiosities_toolbox_dyeing has no readable result item; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:rods/wooden' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_doors' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wool' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/black' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/black' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/blue' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/blue' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_doors' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/brown' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/brown' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:logs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:planks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:buttons' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/gold' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:rods/wooden' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_doors' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:planks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/cyan' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/cyan' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:netherracks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wool' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:barrels/wooden' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_doors' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_trapdoors' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:glass_blocks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/gold' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:strings' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/gray' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/gray' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/green' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/green' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:planks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:barrels/wooden' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:planks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:planks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:planks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:planks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/light_blue' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/light_blue' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/light_gray' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/light_gray' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/lime' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/lime' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:logs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/magenta' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/magenta' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:storage_blocks/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:stones' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:gunpowders' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wool' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/orange' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/orange' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wool' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/pink' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/pink' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:planks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/purple' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/purple' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:logs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/red' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/red' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wool' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/obsidian' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:storage_blocks/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/gold' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/gold' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:cobblestones' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:slimeballs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:slimeballs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:slimeballs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_pressure_plates' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_doors' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_trapdoors' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:planks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/gold' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:rods/wooden' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wool' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/white' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/white' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:stones' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:planks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:rods/wooden' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/gold' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:rods/wooden' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/yellow' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:seats' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/yellow' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:valve_handles' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/black' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/black' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/black' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/blue' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/blue' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/blue' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/brown' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/brown' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/brown' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/cyan' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/cyan' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/cyan' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/gold' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/gray' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/gray' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/gray' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/green' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/green' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/green' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/light_blue' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/light_blue' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/light_blue' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/light_gray' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/light_gray' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/light_gray' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/lime' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/lime' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/lime' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/magenta' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/magenta' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/magenta' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/orange' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/orange' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/orange' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:slimeballs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/pink' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/pink' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/pink' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:stones' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:stones' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:stones' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:stones' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:stones' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/purple' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/purple' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/purple' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/red' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/red' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/red' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/gold' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:glass_blocks' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/white' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/white' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/white' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/yellow' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/yellow' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:postboxes' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/yellow' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:dyed_table_cloths' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:strings' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:storage_blocks/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/brass' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/iron' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:sands/red' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:gems/quartz' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:sands/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:plates/copper' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dusts/redstone' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:nuggets/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:storage_blocks/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:ingots/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/black' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:dyes/light_blue' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:feathers' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:wooden_slabs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:logs' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:small_flowers' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'minecraft:small_flowers' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'create:upgrade_aquatic/coral' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe type:** 'crimsite_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'crimsite_pillar_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe result:** create:crushing_aluminum_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_amethyst_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_amethyst_cluster has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_asurine has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_asurine_recycling has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_blaze_rod has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_coal_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_aether_ambrosium_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_aether_zanite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_biomesoplenty_rose_quartz has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_biomeswevegone_red_rock has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_druidcraft_amber_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_druidcraft_fiery_glass_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_druidcraft_moonstone_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_coal_end has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_coal_nether has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_copper_end has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_copper_nether has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_diamond_end has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_diamond_nether has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_emerald_end has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_emerald_nether has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_ender_end has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_ghast_nether has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_iron_nether has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_lapis_end has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_lapis_nether has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_elementaryores_ore_redstone_end has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_exnihilosequentia_andesite has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_exnihilosequentia_crushed_diorite has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_exnihilosequentia_crushed_netherrack has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_exnihilosequentia_diorite has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_exnihilosequentia_dust has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_exnihilosequentia_end_stone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_exnihilosequentia_granite has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_exnihilosequentia_netherrack has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_galosphere_allurite has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_galosphere_amethyst has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_galosphere_lumiere has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_immersiveengineering_coal_coke has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_immersiveengineering_coke_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_immersiveengineering_slag has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_neapolitan_ice has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_quark_moss_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_alexandrite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_ammolite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_aquamarine_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_black_diamond_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_carnelian_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_citrine_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_alexandrite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_ammolite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_aquamarine_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_black_diamond_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_carnelian_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_citrine_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_garnet_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_heliodor_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_iolite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_kyanite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_moldavite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_opal_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_pearl_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_peridot_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_rose_quartz_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_ruby_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_sapphire_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_tanzanite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_topaz_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_turquoise_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_deepslate_white_diamond_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_alexandrite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_ammolite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_aquamarine_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_black_diamond_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_carnelian_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_citrine_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_garnet_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_heliodor_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_iolite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_kyanite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_moldavite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_opal_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_pearl_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_peridot_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_rose_quartz_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_ruby_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_sapphire_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_tanzanite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_topaz_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_turquoise_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_end_white_diamond_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_garnet_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_heliodor_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_iolite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_kyanite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_moldavite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_alexandrite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_ammolite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_aquamarine_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_black_diamond_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_carnelian_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_citrine_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_garnet_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_heliodor_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_iolite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_kyanite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_moldavite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_opal_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_pearl_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_peridot_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_rose_quartz_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_ruby_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_sapphire_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_tanzanite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_topaz_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_turquoise_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_nether_white_diamond_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_opal_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_pearl_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_peridot_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_rose_quartz_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_ruby_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_sapphire_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_tanzanite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_topaz_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_turquoise_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_silentgems_white_diamond_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_simplefarming_barley has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_simplefarming_oat has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_simplefarming_rice has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_simplefarming_rye has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_thermal_apatite_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_thermal_cinnabar_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_thermal_niter_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_compat_thermal_sulfur_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_copper_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_crimsite has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_crimsite_recycling has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_deepslate_coal_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_deepslate_copper_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_deepslate_diamond_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_deepslate_emerald_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_deepslate_gold_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_deepslate_iron_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_deepslate_lapis_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_deepslate_redstone_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_deepslate_zinc_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_diamond_horse_armor has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_diamond_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_diorite has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_diorite_recycling has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_emerald_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_gilded_blackstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_glowstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_gold_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_golden_horse_armor has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_gravel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_iron_horse_armor has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_iron_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_lapis_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_lead_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_leather_horse_armor has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_nether_gold_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_nether_quartz_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_nether_wart_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_netherrack has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_nickel_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_obsidian has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_ochrum has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_ochrum_recycling has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_osmium_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_platinum_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_prismarine_crystals has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_quicksilver_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_aluminum has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_aluminum_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_copper has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_copper_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_gold has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_gold_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_iron has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_iron_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_lead has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_lead_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_nickel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_nickel_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_osmium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_osmium_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_platinum has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_platinum_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_quicksilver has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_quicksilver_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_silver has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_silver_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_tin has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_tin_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_uranium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_uranium_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_zinc has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_raw_zinc_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_redstone_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_silver_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_tin_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_tuff has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_tuff_recycling has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_uranium_ore has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_veridium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_veridium_recycling has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_wool has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:crushing_zinc_ore has no readable result item; the recipe needs hand-editing
+- **recipe type:** 'cut_andesite_brick_slab_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_andesite_brick_stairs_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_andesite_brick_wall_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_andesite_bricks_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_andesite_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_andesite_slab_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_andesite_stairs_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_andesite_wall_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_asurine_brick_slab_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_asurine_brick_stairs_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_asurine_brick_wall_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_asurine_bricks_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_asurine_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_asurine_slab_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_asurine_stairs_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_asurine_wall_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_calcite_brick_slab_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_calcite_brick_stairs_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_calcite_brick_wall_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_calcite_bricks_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_calcite_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_calcite_slab_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_calcite_stairs_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_calcite_wall_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_crimsite_brick_slab_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_crimsite_brick_stairs_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_crimsite_brick_wall_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_crimsite_bricks_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_crimsite_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_crimsite_slab_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_crimsite_stairs_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_crimsite_wall_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_deepslate_brick_slab_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_deepslate_brick_stairs_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_deepslate_brick_wall_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_deepslate_bricks_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_deepslate_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_deepslate_slab_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_deepslate_stairs_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_deepslate_wall_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_diorite_brick_slab_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_diorite_brick_stairs_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_diorite_brick_wall_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_diorite_bricks_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_diorite_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_diorite_slab_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_diorite_stairs_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_diorite_wall_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_dripstone_brick_slab_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_dripstone_brick_stairs_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_dripstone_brick_wall_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_dripstone_bricks_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_dripstone_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_dripstone_slab_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_dripstone_stairs_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_dripstone_wall_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_granite_brick_slab_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_granite_brick_stairs_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_granite_brick_wall_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_granite_bricks_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_granite_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_granite_slab_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_granite_stairs_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_granite_wall_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_limestone_brick_slab_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_limestone_brick_stairs_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_limestone_brick_wall_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_limestone_bricks_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_limestone_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_limestone_slab_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_limestone_stairs_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_limestone_wall_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_ochrum_brick_slab_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_ochrum_brick_stairs_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_ochrum_brick_wall_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_ochrum_bricks_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_ochrum_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_ochrum_slab_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_ochrum_stairs_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_ochrum_wall_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scorchia_brick_slab_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scorchia_brick_stairs_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scorchia_brick_wall_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scorchia_bricks_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scorchia_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scorchia_slab_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scorchia_stairs_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scorchia_wall_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scoria_brick_slab_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scoria_brick_stairs_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scoria_brick_wall_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scoria_bricks_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scoria_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scoria_slab_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scoria_stairs_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_scoria_wall_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_tuff_brick_slab_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_tuff_brick_stairs_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_tuff_brick_wall_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_tuff_bricks_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_tuff_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_tuff_slab_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_tuff_stairs_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_tuff_wall_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_veridium_brick_slab_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_veridium_brick_stairs_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_veridium_brick_wall_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_veridium_bricks_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_veridium_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_veridium_slab_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_veridium_stairs_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'cut_veridium_wall_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe result:** create:cutting_andesite_alloy has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_bamboo_planks has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_ars_elemental_stripped_yellow_archwood has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_ars_elemental_stripped_yellow_archwood_log has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_ars_nouveau_stripped_green_archwood_log has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_ars_nouveau_stripped_green_archwood_wood has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_ars_nouveau_stripped_purple_archwood_log has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_ars_nouveau_stripped_purple_archwood_wood has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_ars_nouveau_stripped_red_archwood_log has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_ars_nouveau_stripped_red_archwood_wood has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_atmospheric_crustose_log has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_atmospheric_crustose_wood has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_atmospheric_watchful_aspen_log has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_atmospheric_watchful_aspen_wood has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_autumnity_sappy_maple_log has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_autumnity_sappy_maple_wood has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_biomeswevegone_stripped_palo_verde_log has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_biomeswevegone_stripped_palo_verde_wood has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_endergetic_glowing_poise_stem has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_endergetic_glowing_poise_wood has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_immersiveengineering_wire_aluminum has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_immersiveengineering_wire_copper has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_immersiveengineering_wire_electrum has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_immersiveengineering_wire_lead has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_immersiveengineering_wire_steel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_netherexp_cerebrage_claret_hyphae has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_netherexp_cerebrage_claret_stem has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_regions_unexplored_ashen_log has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_regions_unexplored_ashen_wood has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_regions_unexplored_brimwood_log_magma has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_regions_unexplored_silver_birch_log has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:cutting_compat_regions_unexplored_silver_birch_wood has no readable result item; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe type:** 'deepslate_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'deepslate_pillar_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe result:** create:deploying_chiseled_copper_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_chiseled_copper_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_cogwheel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_block_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_block_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_bulb_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_bulb_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_door_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_door_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_grate_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_grate_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_shingle_slab_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_shingle_slab_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_shingle_stairs_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_shingle_stairs_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_shingles_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_shingles_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_tile_slab_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_tile_slab_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_tile_stairs_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_tile_stairs_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_tiles_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_tiles_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_trapdoor_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_copper_trapdoor_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_cut_copper_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_cut_copper_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_cut_copper_slab_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_cut_copper_slab_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_cut_copper_stairs_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_cut_copper_stairs_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_chiseled_copper_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_chiseled_copper_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_bulb_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_bulb_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_door_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_door_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_grate_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_grate_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_shingle_slab_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_shingle_slab_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_shingle_stairs_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_shingle_stairs_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_shingles_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_shingles_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_tile_slab_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_tile_slab_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_tile_stairs_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_tile_stairs_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_tiles_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_tiles_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_trapdoor_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_copper_trapdoor_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_cut_copper_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_cut_copper_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_cut_copper_slab_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_cut_copper_slab_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_cut_copper_stairs_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_exposed_cut_copper_stairs_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_large_cogwheel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_chiseled_copper_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_copper_bulb_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_copper_door_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_copper_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_copper_grate_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_copper_shingle_slab_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_copper_shingle_stairs_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_copper_shingles_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_copper_tile_slab_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_copper_tile_stairs_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_copper_tiles_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_copper_trapdoor_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_cut_copper_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_cut_copper_slab_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_oxidized_cut_copper_stairs_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_chiseled_copper_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_copper_block_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_copper_bulb_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_copper_door_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_copper_grate_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_copper_shingle_slab_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_copper_shingle_stairs_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_copper_shingles_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_copper_tile_slab_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_copper_tile_stairs_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_copper_tiles_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_copper_trapdoor_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_cut_copper_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_cut_copper_slab_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_cut_copper_stairs_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_chiseled_copper_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_copper_bulb_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_copper_door_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_copper_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_copper_grate_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_copper_shingle_slab_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_copper_shingle_stairs_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_copper_shingles_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_copper_tile_slab_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_copper_tile_stairs_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_copper_tiles_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_copper_trapdoor_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_cut_copper_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_cut_copper_slab_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_exposed_cut_copper_stairs_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_chiseled_copper_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_copper_bulb_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_copper_door_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_copper_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_copper_grate_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_copper_shingle_slab_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_copper_shingle_stairs_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_copper_shingles_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_copper_tile_slab_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_copper_tile_stairs_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_copper_tiles_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_copper_trapdoor_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_cut_copper_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_cut_copper_slab_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_oxidized_cut_copper_stairs_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_chiseled_copper_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_copper_bulb_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_copper_door_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_copper_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_copper_grate_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_copper_shingle_slab_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_copper_shingle_stairs_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_copper_shingles_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_copper_tile_slab_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_copper_tile_stairs_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_copper_tiles_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_copper_trapdoor_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_cut_copper_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_cut_copper_slab_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_waxed_weathered_cut_copper_stairs_from_adding_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_chiseled_copper_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_chiseled_copper_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_bulb_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_bulb_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_door_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_door_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_grate_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_grate_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_shingle_slab_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_shingle_slab_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_shingle_stairs_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_shingle_stairs_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_shingles_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_shingles_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_tile_slab_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_tile_slab_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_tile_stairs_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_tile_stairs_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_tiles_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_tiles_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_trapdoor_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_copper_trapdoor_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_cut_copper_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_cut_copper_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_cut_copper_slab_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_cut_copper_slab_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_cut_copper_stairs_from_deoxidising has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:deploying_weathered_cut_copper_stairs_from_removing_wax has no readable result item; the recipe needs hand-editing
+- **recipe type:** 'diorite_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'diorite_pillar_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'dripstone_block_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'dripstone_pillar_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe result:** create:emptying_builders_tea has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:emptying_compat_alexsmobs_lava_bottle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:emptying_compat_farmersdelight_milk_bottle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:emptying_compat_neapolitan_milk_bottle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:emptying_honey_bottle has no readable result item; the recipe needs hand-editing
+- **recipe type:** 'exposed_copper_shingle_slab_from_exposed_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'exposed_copper_shingle_stairs_from_exposed_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'exposed_copper_tile_slab_from_exposed_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'exposed_copper_tile_stairs_from_exposed_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe result:** create:filling_blaze_cake has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_builders_tea has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_chocolate_glazed_berries has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_compat_aether_aether_grass_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_compat_alexsmobs_lava_bottle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_compat_biomeswevegone_lush_grass_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_compat_farmersdelight_milk_bottle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_compat_immersiveengineering_treated_wood_in_spout has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_compat_neapolitan_milk_bottle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_compat_regions_unexplored_peat_grass_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_compat_regions_unexplored_silt_grass_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_compat_vampirism_cursed_grass has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_glowstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_grass_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_gunpowder has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_honey_bottle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_honeyed_apple has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_redstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:filling_sweet_roll has no readable result item; the recipe needs hand-editing
+- **recipe type:** 'framed_glass_from_glass_blocks_colorless_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'framed_glass_pane_from_glass_panes_colorless_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'granite_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'granite_pillar_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe result:** create:haunting_blackstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_compat_farmersdelight_rotten_tomato has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_compat_hauntedharvest_rotten_apple has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_crimson_fungus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_glow_berries has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_glow_ink_sac has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_haunted_bell has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_infested_chiseled_stone_bricks has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_infested_cracked_stone_bricks has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_infested_deepslate has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_infested_mossy_stone_bricks has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_infested_stone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_infested_stone_bricks has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_lapis_recycling has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_nether_brick has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_poisonous_potato has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_soul_campfire has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_soul_lantern has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_soul_sand has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_soul_soil has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_soul_torch has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:haunting_warped_fungus has no readable result item; the recipe needs hand-editing
+- **recipe type:** 'horizontal_framed_glass_from_glass_blocks_colorless_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'horizontal_framed_glass_pane_from_glass_panes_colorless_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'industrial_iron_block_from_ingots_iron_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe result:** create:item_application_andesite_casing_from_log has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:item_application_andesite_casing_from_wood has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:item_application_bound_cardboard_inworld has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:item_application_brass_casing_from_log has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:item_application_brass_casing_from_wood has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:item_application_copper_casing_from_log has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:item_application_copper_casing_from_wood has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:item_application_railway_casing has no readable result item; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe type:** 'layered_andesite_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'layered_asurine_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'layered_calcite_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'layered_crimsite_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'layered_deepslate_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'layered_diorite_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'layered_dripstone_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'layered_granite_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'layered_limestone_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'layered_ochrum_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'layered_scorchia_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'layered_scoria_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'layered_tuff_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'layered_veridium_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'limestone_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'limestone_pillar_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe type:** 'mechanical_crafting_crushing_wheel' uses 'create:mechanical_crafting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'mechanical_crafting_extendo_grip' uses 'create:mechanical_crafting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'mechanical_crafting_potato_cannon' uses 'create:mechanical_crafting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'mechanical_crafting_wand_of_symmetry' uses 'create:mechanical_crafting', which Bedrock addons cannot express; recreate it by hand
+- **recipe result:** create:milling_allium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_andesite has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_azure_bluet has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_beetroot has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_blue_orchid has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_bone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_bone_meal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_cactus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_calcite has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_charcoal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_clay has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_coal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_cobblestone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_cocoa_beans has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_ae2_certus_quartz has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_ae2_ender_pearl has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_ae2_fluix_crystal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_ae2_sky_stone_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_atmospheric_arid_sandstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_atmospheric_barrel_cactus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_atmospheric_firethorn has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_atmospheric_forsythia has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_atmospheric_gilia has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_atmospheric_hot_monkey_brush has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_atmospheric_red_arid_sandstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_atmospheric_scalding_monkey_brush has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_atmospheric_tall_yucca_flower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_atmospheric_warm_monkey_brush has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_atmospheric_water_hyacinth has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_atmospheric_yucca_flower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_autumnity_autumn_crocus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_black_sandstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_blue_hydrangea has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_burning_blossom has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_cattail has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_endbloom has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_glowflower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_goldenrod has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_icy_iris has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_lavender has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_orange_cosmos has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_orange_sandstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_pink_daffodil has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_pink_hibiscus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_rose has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_tall_lavender has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_tall_white_lavender has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_tiny_cactus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_violet has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_waterlily has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_white_lavender has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_white_petals has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_white_sandstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_wildflower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomesoplenty_wilted_lily has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_allium_flower_bush has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_alpine_bellflower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_amaranth has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_angelica has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_begonia has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_bistort has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_black_rose has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_black_sandstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_blue_rose_bush has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_blue_sage has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_blue_sandstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_california_poppy has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_crocus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_cyan_amaranth has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_cyan_rose has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_cyan_tulip has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_daffodil has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_delphinium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_fairy_slipper has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_firecracker_flower_bush has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_foxglove has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_golden_spined_cactus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_green_tulip has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_guzmania has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_horseweed has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_hydrangea_bush has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_incan_lily has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_iris has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_japanese_orchid has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_kovan_flower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_lazarus_bellflower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_lollipop_flower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_magenta_amaranth has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_magenta_tulip has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_mini_cactus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_orange_amaranth has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_orange_daisy has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_osiria_rose has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_peach_leather_flower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_pink_allium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_pink_allium_flower_bush has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_pink_anemone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_pink_daffodil has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_pink_sandstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_prickly_pear_cactus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_protea_flower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_purple_amaranth has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_purple_sage has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_purple_sandstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_purple_tulip has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_richea has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_rose has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_silver_vase_flower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_snowdrops has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_tall_allium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_tall_pink_allium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_tall_white_allium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_violet_leather_flower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_white_allium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_white_allium_flower_bush has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_white_anemone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_white_puffball_cap has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_white_sage has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_white_sandstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_windswept_sandstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_winter_cyclamen has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_winter_rose has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_winter_scilla has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_winter_succulent has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_yellow_daffodil has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_biomeswevegone_yellow_tulip has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_black_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_blue_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_brown_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_cyan_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_gray_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_green_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_light_blue_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_light_gray_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_lime_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_magenta_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_orange_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_pink_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_purple_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_red_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_white_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_botania_yellow_petal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_buzzier_bees_buttercup has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_buzzier_bees_pink_clover has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_buzzier_bees_white_clover has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_druidcraft_lavender has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_bird_of_paradise has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_blue_delphinium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_bluebell has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_cartwheel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_dianthus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_magenta_hibiscus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_orange_hibiscus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_pink_delphinium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_pink_hibiscus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_purple_delphinium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_purple_hibiscus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_red_hibiscus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_red_lotus_flower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_tasselflower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_violet has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_white_delphinium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_white_lotus_flower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_environmental_yellow_hibiscus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_alpha_dandelion has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_alpha_rose has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_aster has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_black_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_bleeding_heart has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_blue_lupine has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_blue_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_brown_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_cactus_flower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_cyan_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_daisy has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_day_lily has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_dorcel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_felicia_daisy has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_fireweed has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_glistering_bloom has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_gray_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_green_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_hibiscus has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_hyssop has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_light_blue_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_light_gray_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_lime_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_magenta_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_mallow has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_orange_coneflower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_orange_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_pink_lupine has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_pink_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_poppy_bush has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_purple_coneflower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_purple_lupine has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_purple_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_red_lupine has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_red_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_salmon_poppy_bush has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_tassel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_tsubaki has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_waratah has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_white_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_white_trillium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_wilting_trillium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_yellow_lupine has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_regions_unexplored_yellow_snowbelle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_supplementaries_flax has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_tconstruct_nercotic_bone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_upgrade_aquatic_flowering_rush has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_upgrade_aquatic_pink_searocket has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_compat_upgrade_aquatic_white_searocket has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_cornflower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_dandelion has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_dripstone_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_fern has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_granite has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_gravel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_ink_sac has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_lapis_lazuli has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_large_fern has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_lilac has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_lily_of_the_valley has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_orange_tulip has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_oxeye_daisy has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_peony has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_pink_petals has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_pink_tulip has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_pitcher_plant has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_poppy has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_red_tulip has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_rose_bush has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_saddle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_sandstone has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_sea_pickle has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_short_grass has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_sugar_cane has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_sunflower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_tall_grass has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_terracotta has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_torchflower has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_wheat has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_white_tulip has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_wither_rose has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:milling_wool has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_andesite_alloy has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_andesite_alloy_from_zinc has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_brass_ingot has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_cardboard_pulp has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_chocolate has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_chocolate_melting has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_compat_ae2_fluix_crystal has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_compat_regions_unexplored_peat_mud has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_compat_regions_unexplored_silt_mud has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_dough_by_mixing has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_honey has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_lava_from_cobble has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_mud_by_mixing has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:mixing_tea has no readable result item; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe type:** 'ochrum_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'ochrum_pillar_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe type:** 'oxidized_copper_shingle_slab_from_oxidized_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'oxidized_copper_shingle_stairs_from_oxidized_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'oxidized_copper_tile_slab_from_oxidized_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'oxidized_copper_tile_stairs_from_oxidized_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_andesite_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_andesite_slab_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_andesite_stairs_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_andesite_wall_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_asurine_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_asurine_slab_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_asurine_stairs_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_asurine_wall_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_calcite_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_calcite_slab_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_calcite_stairs_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_calcite_wall_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_crimsite_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_crimsite_slab_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_crimsite_stairs_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_crimsite_wall_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_deepslate_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_deepslate_slab_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_deepslate_stairs_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_deepslate_wall_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_diorite_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_diorite_slab_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_diorite_stairs_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_diorite_wall_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_dripstone_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_dripstone_slab_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_dripstone_stairs_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_dripstone_wall_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_granite_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_granite_slab_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_granite_stairs_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_granite_wall_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_limestone_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_limestone_slab_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_limestone_stairs_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_limestone_wall_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_ochrum_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_ochrum_slab_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_ochrum_stairs_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_ochrum_wall_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_scorchia_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_scorchia_slab_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_scorchia_stairs_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_scorchia_wall_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_scoria_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_scoria_slab_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_scoria_stairs_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_scoria_wall_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_tuff_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_tuff_slab_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_tuff_stairs_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_tuff_wall_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_veridium_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_veridium_slab_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_veridium_stairs_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'polished_cut_veridium_wall_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe result:** create:pressing_aether_dirt_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_aether_dirt_path_from_grass has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_brass_ingot has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_cardboard has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_atmospheric_crustose_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_betterendforge_amber_moss_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_betterendforge_cave_moss_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_betterendforge_chorus_nylium_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_betterendforge_crystal_moss_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_betterendforge_end_moss_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_betterendforge_end_mycelium_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_betterendforge_jungle_moss_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_betterendforge_pink_moss_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_betterendforge_shadow_grass_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_biomeswevegone_lush_dirt_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_biomeswevegone_lush_grass_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_biomeswevegone_sandy_dirt_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_environmental_dirt_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_environmental_mycelium_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_environmental_podzol_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_immersiveengineering_plate_aluminum has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_immersiveengineering_plate_constantan has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_immersiveengineering_plate_electrum has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_immersiveengineering_plate_lead has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_immersiveengineering_plate_nickel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_immersiveengineering_plate_silver has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_immersiveengineering_plate_steel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_immersiveengineering_plate_uranium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_infernalexp_crimson_nylium_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_infernalexp_soul_soil_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_infernalexp_warped_nylium_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_compat_vampirism_cursed_earth_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_copper_ingot has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_cursed_earth_path_from_grass has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_gold_ingot has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_iron_ingot has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_path_from_grass has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_peat_dirt_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_peat_dirt_path_from_grass has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_silt_dirt_path has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_silt_dirt_path_from_grass has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:pressing_sugar_cane has no readable result item; the recipe needs hand-editing
+- **recipe type:** 'rose_quartz_block_from_rose_quartz_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'rose_quartz_tiles_from_polished_rose_quartz_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe result:** create:sandpaper_polishing_rose_quartz has no readable result item; the recipe needs hand-editing
+- **recipe type:** 'scorchia_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'scorchia_pillar_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'scoria_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'scoria_pillar_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe result:** create:sequenced_assembly_precision_mechanism has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:sequenced_assembly_sturdy_sheet has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:sequenced_assembly_track has no readable result item; the recipe needs hand-editing
+- **recipe type:** 'small_andesite_brick_slab_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_andesite_brick_stairs_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_andesite_brick_wall_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_andesite_bricks_from_stone_types_andesite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_asurine_brick_slab_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_asurine_brick_stairs_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_asurine_brick_wall_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_asurine_bricks_from_stone_types_asurine_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_calcite_brick_slab_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_calcite_brick_stairs_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_calcite_brick_wall_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_calcite_bricks_from_stone_types_calcite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_crimsite_brick_slab_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_crimsite_brick_stairs_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_crimsite_brick_wall_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_crimsite_bricks_from_stone_types_crimsite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_deepslate_brick_slab_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_deepslate_brick_stairs_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_deepslate_brick_wall_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_deepslate_bricks_from_stone_types_deepslate_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_diorite_brick_slab_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_diorite_brick_stairs_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_diorite_brick_wall_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_diorite_bricks_from_stone_types_diorite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_dripstone_brick_slab_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_dripstone_brick_stairs_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_dripstone_brick_wall_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_dripstone_bricks_from_stone_types_dripstone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_granite_brick_slab_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_granite_brick_stairs_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_granite_brick_wall_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_granite_bricks_from_stone_types_granite_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_limestone_brick_slab_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_limestone_brick_stairs_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_limestone_brick_wall_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_limestone_bricks_from_stone_types_limestone_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_ochrum_brick_slab_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_ochrum_brick_stairs_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_ochrum_brick_wall_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_ochrum_bricks_from_stone_types_ochrum_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_rose_quartz_tiles_from_polished_rose_quartz_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_scorchia_brick_slab_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_scorchia_brick_stairs_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_scorchia_brick_wall_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_scorchia_bricks_from_stone_types_scorchia_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_scoria_brick_slab_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_scoria_brick_stairs_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_scoria_brick_wall_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_scoria_bricks_from_stone_types_scoria_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_tuff_brick_slab_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_tuff_brick_stairs_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_tuff_brick_wall_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_tuff_bricks_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_veridium_brick_slab_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_veridium_brick_stairs_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_veridium_brick_wall_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'small_veridium_bricks_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe tag:** ingredient tag 'c:ores/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:raw_materials/zinc' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe result:** create:splashing_atmospheric_arid_sand has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_atmospheric_red_arid_sand has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_crushed_raw_copper has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_crushed_raw_gold has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_crushed_raw_iron has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_crushed_raw_zinc has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_endergetic_petrified_end_corrock has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_endergetic_petrified_end_corrock_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_endergetic_petrified_end_corrock_crown has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_endergetic_petrified_nether_corrock has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_endergetic_petrified_nether_corrock_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_endergetic_petrified_nether_corrock_crown has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_endergetic_petrified_overworld_corrock has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_endergetic_petrified_overworld_corrock_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_endergetic_petrified_overworld_corrock_crown has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_galosphere_crushed_raw_silver has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_gravel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_ic2_crushed_raw_aluminum has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_ic2_crushed_raw_silver has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_ic2_crushed_raw_tin has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_ic2_crushed_raw_uranium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_ice has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_iceandfire_crushed_raw_silver has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_immersiveengineering_crushed_raw_aluminum has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_immersiveengineering_crushed_raw_lead has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_immersiveengineering_crushed_raw_nickel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_immersiveengineering_crushed_raw_silver has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_immersiveengineering_crushed_raw_uranium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_industrial_iron_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_industrial_iron_window has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_industrial_iron_window_pane has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_magma_block has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_mekanism_crushed_raw_lead has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_mekanism_crushed_raw_osmium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_mekanism_crushed_raw_tin has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_mekanism_crushed_raw_uranium has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_oreganized_crushed_raw_lead has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_oreganized_crushed_raw_silver has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_quark_rusty_iron_plate has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_red_sand has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_sand has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_soul_sand has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_stained_glass has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_stained_glass_pane has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_supplementaries_blackboard has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_the_vault_ornate_chain_rusty has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_thermal_crushed_raw_lead has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_thermal_crushed_raw_nickel has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_thermal_crushed_raw_silver has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_thermal_crushed_raw_tin has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_wheat_flour has no readable result item; the recipe needs hand-editing
+- **recipe result:** create:splashing_wool has no readable result item; the recipe needs hand-editing
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe type:** 'tiled_glass_from_glass_blocks_colorless_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'tiled_glass_pane_from_glass_panes_colorless_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'tuff_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'tuff_pillar_from_stone_types_tuff_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'veridium_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'veridium_pillar_from_stone_types_veridium_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'vertical_framed_glass_from_glass_blocks_colorless_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'vertical_framed_glass_pane_from_glass_panes_colorless_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+- **recipe type:** 'waxed_copper_shingle_slab_from_waxed_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_copper_shingle_stairs_from_waxed_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_copper_tile_slab_from_waxed_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_copper_tile_stairs_from_waxed_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_exposed_copper_shingle_slab_from_waxed_exposed_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_exposed_copper_shingle_stairs_from_waxed_exposed_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_exposed_copper_tile_slab_from_waxed_exposed_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_exposed_copper_tile_stairs_from_waxed_exposed_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_oxidized_copper_shingle_slab_from_waxed_oxidized_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_oxidized_copper_shingle_stairs_from_waxed_oxidized_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_oxidized_copper_tile_slab_from_waxed_oxidized_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_oxidized_copper_tile_stairs_from_waxed_oxidized_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_weathered_copper_shingle_slab_from_waxed_weathered_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_weathered_copper_shingle_stairs_from_waxed_weathered_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_weathered_copper_tile_slab_from_waxed_weathered_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'waxed_weathered_copper_tile_stairs_from_waxed_weathered_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'weathered_copper_shingle_slab_from_weathered_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'weathered_copper_shingle_stairs_from_weathered_copper_shingles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'weathered_copper_tile_slab_from_weathered_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'weathered_copper_tile_stairs_from_weathered_copper_tiles_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe type:** 'weathered_iron_block_from_ingots_iron_stonecutting' uses 'minecraft:stonecutting', which Bedrock addons cannot express; recreate it by hand
+- **recipe tag:** ingredient tag 'c:glass_blocks/colorless' has no Bedrock equivalent; the recipe needs hand-editing
+
+## Notes
+
+- mod namespaces found: create
+- loader: neoforge (from META-INF/neoforge.mods.toml)
+- mod: Create 6.0.10
+- Bedrock uses fresh UUIDs; import the .mcaddon twice and it will be treated as two different packs.
+- Blocks use default hardness (2.0) and blast resistance (6.0) — tune them in behavior_pack/blocks/ if the original mod had different values.
